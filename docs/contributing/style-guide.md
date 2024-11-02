@@ -101,12 +101,12 @@ These style guidelines help make the documentation accessible to people from var
 - Put image files in `DelugeDocs\images`.
 
 #### Image references
-- Use relative image paths.
+- Use relative image paths starting from the page location, such as `../../images/image.jpg`.
 - Include alt text that provide a description of the image for accessibility.
 
 #### Example
 
-    ![An image of the Edit button at the top of a GitHub page](/../DelugeDocs/images/github-edit-button.jpg "GitHub Edit button")
+    ![An image of the Edit button at the top of a GitHub page](../images/github-commit-button.jpg "GitHub Commit button")
 
 
 ### Tables

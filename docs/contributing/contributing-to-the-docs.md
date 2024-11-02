@@ -15,12 +15,12 @@ Before you can make changes to the site using either method, contact [seangoodvi
 1. Open the page you want to edit.
 1. Click **Edit**.
 
-![An image of the Edit button at the top of a GitHub page](/../DelugeDocs/images/github-edit-button.jpg "GitHub Edit button")
+![An image of the Edit button at the top of a GitHub page](../images/github-edit-button.jpg "GitHub Edit button")
 
 1. Make the changes.
 1. Click **Commit**.
 
-![An image of the Edit button at the top of a GitHub page](/../DelugeDocs/images/github-commit-button.jpg "GitHub Commit button")
+![An image of the Edit button at the top of a GitHub page](../images/github-commit-button.jpg "GitHub Commit button")
 
 ## For major contributors
 
