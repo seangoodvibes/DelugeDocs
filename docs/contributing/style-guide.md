@@ -4,35 +4,26 @@ To make the documentation consistent and accessible, you should try to align you
 
 Best effort is much more important than perfection. Follow the style guide as best you can and allow others to edit your content to bring it in line with the style standards.
 
-## Writing Deluge instructions
+## Content structure
 
-### Buttons and controls
+Content is organized by:
 
-#### Screen elements and physical buttons
+* Tabs
+* Pages
+* Sections
 
-- When naming screen elements and physical buttons, use `**bold**`. For example:
-  - To enable Sticky Shift, tap **Shift**.
-  - Go to **Settings** > **MIDI**, and enable **MIDI-THRU**.
-
-#### Knobs
-
-- Use the following names for knobs:
-    - **Upper**
-    - **Lower**
-    - **Select**
-    - **◀ ▶**
-    - **▼▲**
-
-#### Control combinations
-
-- Use + for control combinations. For example, "To create a new kit, press **Shift**+**Kit**".
-
-## General style guide
+The tabs and left navigation are defined in `mkdocs.yaml`, and populated by individual `.md` files.
+The right table of contents (ToC) for a page is defined by the sections (`##` and below) within the file.
 
 ### File naming conventions
 
-Use lowercase, hyphenated names for all Markdown files (e.g., `getting-started.md`, `api-reference.md`).
-Names should be descriptive and concise.
+Use lowercase, hyphenated names for all Markdown files, such as `getting-started.md`. Use consise and descriptive names. The file name should match the H1 heading for the page, but it's okay to use abbreviations.
+
+For example:
+```
+contributing-to-the-docs.md
+# Contributing to the documentation
+```
 
 ### Page structure
 
