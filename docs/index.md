@@ -1,6 +1,6 @@
 # Welcome
 
-## Community Firmware
+## Community firmware
 
 Synthstrom Audible released the [**source code**](https://github.com/SynthstromAudible/DelugeFirmware/wiki/How%E2%80%90To-Guides) of the Deluge firmware and started a Github community project inviting everyone to participate in improving and extending the Deluge user experience.
 

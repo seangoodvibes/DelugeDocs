@@ -50,7 +50,7 @@ Author: Your Name (Optional)
 - Include a blank line under headings for readability in the source Markdown.
 - Use sentence case (that is, capitalize only the first letter) for headings, such as `## Installation guide`.
 
-### Writing Style
+### Writing style
 
 These style guidelines help make the documentation accessible to people from various language backgrounds and abilities.
 
