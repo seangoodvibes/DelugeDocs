@@ -882,70 +882,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#writing-deluge-instructions" class="md-nav__link">
+  <a href="#content-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Writing Deluge instructions
+      Content structure
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Writing Deluge instructions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#buttons-and-controls" class="md-nav__link">
-    <span class="md-ellipsis">
-      Buttons and controls
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Buttons and controls">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#screen-elements-and-physical-buttons" class="md-nav__link">
-    <span class="md-ellipsis">
-      Screen elements and physical buttons
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#knobs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Knobs
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#control-combinations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Control combinations
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#general-style-guide" class="md-nav__link">
-    <span class="md-ellipsis">
-      General style guide
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="General style guide">
+    <nav class="md-nav" aria-label="Content structure">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1083,70 +1026,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#writing-deluge-instructions" class="md-nav__link">
+  <a href="#content-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Writing Deluge instructions
+      Content structure
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Writing Deluge instructions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#buttons-and-controls" class="md-nav__link">
-    <span class="md-ellipsis">
-      Buttons and controls
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Buttons and controls">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#screen-elements-and-physical-buttons" class="md-nav__link">
-    <span class="md-ellipsis">
-      Screen elements and physical buttons
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#knobs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Knobs
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#control-combinations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Control combinations
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#general-style-guide" class="md-nav__link">
-    <span class="md-ellipsis">
-      General style guide
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="General style guide">
+    <nav class="md-nav" aria-label="Content structure">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1267,33 +1153,21 @@
 <h1 id="documentation-style-guide">Documentation style guide</h1>
 <p>To make the documentation consistent and accessible, you should try to align your content with the following style standards.</p>
 <p>Best effort is much more important than perfection. Follow the style guide as best you can and allow others to edit your content to bring it in line with the style standards.</p>
-<h2 id="writing-deluge-instructions">Writing Deluge instructions</h2>
-<h3 id="buttons-and-controls">Buttons and controls</h3>
-<h4 id="screen-elements-and-physical-buttons">Screen elements and physical buttons</h4>
+<h2 id="content-structure">Content structure</h2>
+<p>Content is organized by:</p>
 <ul>
-<li>When naming screen elements and physical buttons, use <code>**bold**</code>. For example:</li>
-<li>To enable Sticky Shift, tap <strong>Shift</strong>.</li>
-<li>Go to <strong>Settings</strong> &gt; <strong>MIDI</strong>, and enable <strong>MIDI-THRU</strong>.</li>
+<li>Tabs</li>
+<li>Pages</li>
+<li>Sections</li>
 </ul>
-<h4 id="knobs">Knobs</h4>
-<ul>
-<li>Use the following names for knobs:<ul>
-<li><strong>Upper</strong></li>
-<li><strong>Lower</strong></li>
-<li><strong>Select</strong></li>
-<li><strong>◀ ▶</strong></li>
-<li><strong>▼▲</strong></li>
-</ul>
-</li>
-</ul>
-<h4 id="control-combinations">Control combinations</h4>
-<ul>
-<li>Use + for control combinations. For example, "To create a new kit, press <strong>Shift</strong>+<strong>Kit</strong>".</li>
-</ul>
-<h2 id="general-style-guide">General style guide</h2>
+<p>The tabs and left navigation are defined in <code>mkdocs.yaml</code>, and populated by individual <code>.md</code> files.
+The right table of contents (ToC) for a page is defined by the sections (<code>##</code> and below) within the file.</p>
 <h3 id="file-naming-conventions">File naming conventions</h3>
-<p>Use lowercase, hyphenated names for all Markdown files (e.g., <code>getting-started.md</code>, <code>api-reference.md</code>).
-Names should be descriptive and concise.</p>
+<p>Use lowercase, hyphenated names for all Markdown files, such as <code>getting-started.md</code>. Use consise and descriptive names. The file name should match the H1 heading for the page, but it's okay to use abbreviations.</p>
+<p>For example:</p>
+<pre><code>contributing-to-the-docs.md
+# Contributing to the documentation
+</code></pre>
 <h3 id="page-structure">Page structure</h3>
 <p>Pages should follow this structure:</p>
 <pre><code># Topic name
