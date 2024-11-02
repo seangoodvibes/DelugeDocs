@@ -33,8 +33,8 @@ After you've installed the above, you can clone the repo.
 
 In your dev environment, use the following terminal commands:
 
-to build the site (do this before committing any changes to the repo):
+To build the site (do this before committing any changes to the repo):
 - mkdocs build
 
-to setup a local web server that refreshes each time you save changes locally:
+To setup a local web server that refreshes each time you save changes locally:
 - mkdocs serve
