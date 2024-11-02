@@ -25,4 +25,4 @@ After commits are made to this repo, a GitHub action will run that will re-build
 
 # Contributing to the documentation
 
-You're welcome to contribute to this documentation whether you're a Deluge Community Firmware contributor or just an enthusiastic Deluge user. To get started, see [Contributing to the Docs](/docs/contributing/contributing-to-the-docs.md)
+You're welcome to contribute to this documentation whether you're a Deluge Community Firmware contributor or just an enthusiastic Deluge user. To get started, see [Contributing to the documentation](/docs/contributing/contributing-to-the-docs.md)
