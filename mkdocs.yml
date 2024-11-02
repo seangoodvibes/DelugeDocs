@@ -19,9 +19,8 @@ theme:
 
 # Navigation
 nav:
-  - Welcome:
-    - index.md
-  - Deluge Documentation:
+  - Welcome: welcome.md
+  - Documentation:
     - Introduction:
       - What can the Deluge do?: introduction/what-can-the-deluge-do.md 
       - Concepts: introduction/concepts.md
@@ -36,8 +35,9 @@ nav:
               - Pads: getting-started/device-overview/controls/pads.md
           - Ports: getting-started/device-overview/ports.md
           - Display: getting-started/device-overview/display.md
-  - Deluge Display Emulator: https://bfredl.github.io/delugeclient/app.html
-  - Deluge File Browser: https://www.fentonia.com/deluge/vuefinder/
+  - Firmware: https://synthstromaudible.github.io/DelugeFirmware/
+  - Display Emulator: https://bfredl.github.io/delugeclient/app.html
+  - File Browser: https://www.fentonia.com/deluge/vuefinder/
   - Contributing:
     - Contributing to the documentation: contributing/contributing-to-the-docs.md
     - Style guide: contributing/style-guide.md
