@@ -24,9 +24,9 @@ nav:
     - Introduction:
       - What can the Deluge do?: introduction/what-can-the-deluge-do.md 
       - Concepts: introduction/concepts.md
-    - Getting Started:
+    - Getting started:
       - Firmware: getting-started/firmware.md
-      - Device Overview: 
+      - Device overview: 
           - Diagram: getting-started/device-overview/diagram.md
           - Power: getting-started/device-overview/power.md
           - Controls:
@@ -35,13 +35,14 @@ nav:
               - Pads: getting-started/device-overview/controls/pads.md
           - Ports: getting-started/device-overview/ports.md
           - Display: getting-started/device-overview/display.md
-  - Quick Reference: quick-reference/quick-reference.md
-  - External Resources:
+  - Quick reference: quick-reference/quick-reference.md
+  - External resources:
     - external-resources/external-resources.md
     - Quick links:
-      - Community Firmware: https://synthstromaudible.github.io/DelugeFirmware/
-      - Display Emulator: https://bfredl.github.io/delugeclient/app.html
-      - File Browser: https://www.fentonia.com/deluge/vuefinder/
+      - Community firmware: https://synthstromaudible.github.io/DelugeFirmware/
+      - Display emulator: https://bfredl.github.io/delugeclient/app.html
+      - File browser: https://www.fentonia.com/deluge/vuefinder/
+      - Shortcuts companion: https://fheft.github.io/deluge-companion/
   - Contributing:
     - Contributing to the documentation: contributing/contributing-to-the-docs.md
     - Style guide: contributing/style-guide.md
