@@ -35,3 +35,6 @@ nav:
             - Pads: getting-started/device-overview/controls/pads.md
         - Ports: getting-started/device-overview/ports.md
         - Display: getting-started/device-overview/display.md
+  - Contributing:
+    - Contributing to the documentation: contributing/contributing-to-the-docs.md
+    - Style guide: contributing/style-guide.md

@@ -1,4 +1,7 @@
 # Contributing to the documentation
+
+You're welcome to contribute to this documentation whether you're a Deluge Community Firmware contributor or an enthusiastic Deluge user.
+
 You can contribute to the documentation by cloning this repository, making changes and rebuilding the site locally, then submitting your changes back to the repository as a pull request (PR).
 
 ## Setting up a development environment

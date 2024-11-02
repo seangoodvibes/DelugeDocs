@@ -1,6 +1,8 @@
 # Documentation style guide
 
-To make the documentation consistent and accessible, you should try to align your writing with the following style standards when you contribute documentation.
+To make the documentation consistent and accessible, you should try to align your content with the following style standards.
+
+Best effort is much more important than perfection. Follow the style guide as best you can and allow others to edit your content to bring it in line with the style standards.
 
 ## Writing Deluge instructions
 
@@ -15,16 +17,15 @@ To make the documentation consistent and accessible, you should try to align you
 #### Knobs
 
 - Use the following names for knobs:
-  - **Upper**
-  - **Lower**
-  - **Select**
-  - **◀▶**
-  - **▼▲**
+    - **Upper**
+    - **Lower**
+    - **Select**
+    - **◀ ▶**
+    - **▼▲**
 
 #### Control combinations
 
-- Use + for control combinations. For example:
-  - To create a new kit, press **Shift**+**Kit**
+- Use + for control combinations. For example, "To create a new kit, press **Shift**+**Kit**".
 
 ## General style guide
 
