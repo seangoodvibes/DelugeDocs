@@ -6,4 +6,4 @@ To that end, this website was developed so that up-to-date documentation for the
 
 # Contributing to the documentation
 
-You're welcome to contribute to this documentation whether you're a Deluge Community Firmware contributor or just an enthusiastic Deluge user. To get started, see [Contributing to the documentation](/contributing/contributing-to-the-docs/)
+You're welcome to contribute to this documentation whether you're a Deluge Community Firmware contributor or just an enthusiastic Deluge user. To get started, see [Contributing to the documentation](DelugeDocs/contributing/contributing-to-the-docs/)
