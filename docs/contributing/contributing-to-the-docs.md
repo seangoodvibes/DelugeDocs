@@ -7,20 +7,30 @@ There are two ways to contribute:
 * Using the GitHub website, for casual contributors
 * Using a local development environment, for major contributors
 
-Before you can make changes to the site using either method, contact [seangoodvibes](https://github.com/seangoodvibes) to ask for permission.
+## Resources
+
+If you want to talk with other Deluge documentation contributors, join us on the [Deluge Community Discord](https://discord.gg/SK8efrna) and look for the [Deluge Documentation Initiative](https://discord.com/channels/608916579421257728/1292168517432381480) channel.
+
+## Requirements
+
+To make changes to the site, you need a [GitHub account](https://github.com/signup).
 
 ## For casual contributors
 
-1. Go to the [DelugeDocs](https://github.com/seangoodvibes/DelugeDocs) project on GitHub.
-1. Open the page you want to edit.
-1. Click **Edit**.
+If you want to work on individual pages, refine existing content, correct a typo, or similar, you can do so through the GitHub website.
 
-![An image of the Edit button at the top of a GitHub page](../images/github-edit-button.jpg "GitHub Edit button")
+You need a GitHub account and permission to work on the project, but no other setup or tools are required.
 
+1. On the community documentation site, open the page you want to edit.
+1. Click **Edit** to open the page in GitHub.
+
+    ![An image of the Edit button at the top of a documentation page](../images/docs-edit-button.jpg "Documentation Edit button")
+
+1. Sign in to GitHub.
 1. Make the changes.
-1. Click **Commit**.
+1. Click **Commit changes**.
 
-![An image of the Edit button at the top of a GitHub page](../images/github-commit-button.jpg "GitHub Commit button")
+    ![An image of the Edit button at the top of a GitHub page](../images/github-commit-button.jpg "GitHub Commit button")
 
 ## For major contributors
 
@@ -52,8 +62,8 @@ mkdocs serve
 
 To submit changes back to the repository:
 
-1. Use Git to track changes in the files you modified
-1. Commit the changes with a brief, descriptive commit message
-1. Push the changes back to the repo
+1. Use Git to track changes in the files you modified.
+1. Commit the changes with a brief, descriptive commit message.
+1. Create a pull request (PR) to submit your changes.
 
-After you push your changes, GitHub starts building the HTML for the site based on the updated files. This typically takes 30-60 seconds. When the build is complete, you can refresh the documentation site to see your changes.
+After your PR is accepted, GitHub starts building the HTML for the site based on the updated files. This typically takes 30-60 seconds. When the build is complete, you can refresh the documentation site to see your changes.
