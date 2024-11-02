@@ -19,7 +19,7 @@ theme:
 
 # Navigation
 nav:
-  - Welcome: welcome.md
+  - Welcome: index.md
   - Documentation:
     - Introduction:
       - What can the Deluge do?: introduction/what-can-the-deluge-do.md 
