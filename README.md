@@ -1,6 +1,6 @@
 # About this site
 
-This is a static site built using the `MkDocs` platform with the theme `Material for MkDocs`, which expands upon MkDocs functionality to allow for even more robust and customiable documentation website building.
+This is a static site built using the `MkDocs` platform with the theme `Material for MkDocs`, which expands upon MkDocs functionality to allow for even more robust and customizable documentation website building.
 
 - Info on MkDocs here: https://www.mkdocs.org
 - Info on Material for MkDocs here: https://squidfunk.github.io/mkdocs-material
@@ -9,15 +9,15 @@ This is a static site built using the `MkDocs` platform with the theme `Material
 
 #### Markdown
 
-Documentation is written in Markdown and is converted into HTML automatically by the MkDocs build tool.  for help with Markdown, see [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) in GitHub.
+Documentation is written in Markdown and is converted into HTML automatically by the MkDocs build tool. For help with Markdown, see the [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax/) on GitHub.
 
 #### Editing
 
-Each page in the documentation has an **Edit** button at the top. This brings you to the source file in GitHub, allows you to make and preview your changes, then commit your changes to the repo.
+Each page in the documentation has an **Edit** button at the top. This brings you to the source file in GitHub which allows you to make and preview your changes, then commit your changes to the repo.
 
 #### Navigation
 
-The navigation for the website (e.g. the tabs at the top, the order and hierarchy of pages in the navigation sidebar) is configured in `mkdocs.yml`
+The navigation for the website (e.g. the tabs at the top, the order and hierarchy of pages in the navigation sidebar) is configured in [mkdocs.yml](mkdocs.yml)
 
 ## Rebuilding the Website
 

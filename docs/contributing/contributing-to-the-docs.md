@@ -32,7 +32,7 @@ If you want to make more substantial contributions, we recommend that you clone 
 
 1. Install Python, Pip, and MkDocs by following the instructions at https://www.mkdocs.org/user-guide/installation/.
 
-1. Install Material for MkDocs by following the instructions at https://squidfunk.github.io/mkdocs-material/getting-started/.
+1. Install Material for MkDocs by following the instructions at [Getting started](https://squidfunk.github.io/mkdocs-material/getting-started/).
 
 1. (Optional) Install [VS Code](https://code.visualstudio.com/download) to use as a code editor and help you manage your Git files.
 

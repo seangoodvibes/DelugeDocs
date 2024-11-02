@@ -1,5 +1,5 @@
 # Project information
-site_name: Deluge Documentation
+site_name: Synthstrom Deluge Community Website
 
 # Repository
 repo_url: https://github.com/seangoodvibes/DelugeDocs
@@ -19,22 +19,30 @@ theme:
 
 # Navigation
 nav:
-  - Welcome:
-    - index.md
-  - Introduction:
-    - What can the Deluge do?: introduction/what-can-the-deluge-do.md 
-    - Concepts: introduction/concepts.md
-  - Getting Started:
-    - Firmware: getting-started/firmware.md
-    - Device Overview: 
-        - Diagram: getting-started/device-overview/diagram.md
-        - Power: getting-started/device-overview/power.md
-        - Controls:
-            - Knobs: getting-started/device-overview/controls/knobs.md
-            - Buttons: getting-started/device-overview/controls/buttons.md
-            - Pads: getting-started/device-overview/controls/pads.md
-        - Ports: getting-started/device-overview/ports.md
-        - Display: getting-started/device-overview/display.md
+  - Welcome: index.md
+  - Documentation:
+    - Introduction:
+      - What can the Deluge do?: introduction/what-can-the-deluge-do.md 
+      - Concepts: introduction/concepts.md
+    - Getting started:
+      - Firmware: getting-started/firmware.md
+      - Device overview: 
+          - Diagram: getting-started/device-overview/diagram.md
+          - Power: getting-started/device-overview/power.md
+          - Controls:
+              - Knobs: getting-started/device-overview/controls/knobs.md
+              - Buttons: getting-started/device-overview/controls/buttons.md
+              - Pads: getting-started/device-overview/controls/pads.md
+          - Ports: getting-started/device-overview/ports.md
+          - Display: getting-started/device-overview/display.md
+  - Quick reference: quick-reference/quick-reference.md
+  - External resources:
+    - external-resources/external-resources.md
+    - Quick links:
+      - Community firmware: https://synthstromaudible.github.io/DelugeFirmware/
+      - Display emulator: https://bfredl.github.io/delugeclient/app.html
+      - File browser: https://www.fentonia.com/deluge/vuefinder/
+      - Shortcuts companion: https://fheft.github.io/deluge-companion/
   - Contributing:
     - Contributing to the documentation: contributing/contributing-to-the-docs.md
     - Style guide: contributing/style-guide.md
