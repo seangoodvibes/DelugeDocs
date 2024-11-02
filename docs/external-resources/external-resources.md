@@ -1,3 +1,3 @@
-# About
+# External resources
 
-Here you will find external links to resources...
+This page will describe the various external resources that are available users. 

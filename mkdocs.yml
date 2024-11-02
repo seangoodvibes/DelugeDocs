@@ -37,10 +37,11 @@ nav:
           - Display: getting-started/device-overview/display.md
   - Quick Reference: quick-reference/quick-reference.md
   - External Resources:
-    - About: external-resources/external-resources.md
-    - Community Firmware: https://synthstromaudible.github.io/DelugeFirmware/
-    - Display Emulator: https://bfredl.github.io/delugeclient/app.html
-    - File Browser: https://www.fentonia.com/deluge/vuefinder/
+    - external-resources/external-resources.md
+    - Quick links:
+      - Community Firmware: https://synthstromaudible.github.io/DelugeFirmware/
+      - Display Emulator: https://bfredl.github.io/delugeclient/app.html
+      - File Browser: https://www.fentonia.com/deluge/vuefinder/
   - Contributing:
     - Contributing to the documentation: contributing/contributing-to-the-docs.md
     - Style guide: contributing/style-guide.md
