@@ -66,7 +66,11 @@ nav:
           - Row: documentation/views/song/modes/row.md
       - Clip:
         - Audio clip: documentation/views/clip/audio-clip.md
-        - Instrument clip: documentation/views/clip/instrument-clip.md
+        - Instrument clip:
+          - Instrument clip: documentation/views/clip/instrument-clip/instrument-clip.md
+          - Note editor: documentation/views/clip/instrument-clip/note-editor.md
+          - Note row editor: documentation/views/clip/instrument-clip/note-row-editor.md
+          - Velocity editor: documentation/views/clip/instrument-clip/velocity-editor.md
   - Quick reference: quick-reference/quick-reference.md
   - External resources:
     - external-resources/external-resources.md
