@@ -1,4 +1,4 @@
-## Deluge style guide
+# Deluge style guide
 
 This extension to the style guide provides Deluge-specific instructions for referring to song parts, views, controls, and display elements.
 
@@ -38,24 +38,19 @@ For consistency, refer to the views as follows:
 - Chord View
 - Chord Library View
 
+### Display elements
+
+- When referring to elements on the OLED display, use **bold** and Title Case.
+
+    !!! example
+        Open Settings and go to **Defaults** > **Automation**, and enable **Nudge Note**.
+
+- When referring to elements on the 7SEG display, use `code` and match the capitalization on the display.
+
+    !!! example
+        Open Settings and go to `dEFA` > `AUTo`, and enable `nUdG`.
+
 ### Buttons and controls
-
-#### Describing display elements
-
-##### Referring to elements on the OLED display
-
-- Use **bold** and Title Case
-
-!!! example
-    Open Settings and go to **Defaults** > **Automation**, and enable **Nudge Note**.
-
-##### Referring to elements on the 7SEG display
-
-- Use `code` and match the capitalization on the display
-
-!!! example
-    Open Settings and go to `dEFA` > `AUTo`, and enable `nUdG`.
-
 
 #### Pads
 
