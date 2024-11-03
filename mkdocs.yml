@@ -54,9 +54,12 @@ nav:
     - external-resources/external-resources.md
     - Quick links:
       - Community firmware: https://synthstromaudible.github.io/DelugeFirmware/
+      - Synthstrom FAQ: https://synthstrom.com/frequently-asked-questions/
       - Display emulator: https://bfredl.github.io/delugeclient/app.html
       - File browser: https://www.fentonia.com/deluge/vuefinder/
       - Shortcuts companion: https://fheft.github.io/deluge-companion/
+      - Kit Generator: https://deluge-kit-generator.vercel.app
+      - Commander: https://neuma.studio/deluge-commander/
   - Contributing:
     - Contributing to the documentation: contributing/contributing-to-the-docs.md
     - Language style guide: contributing/language-style-guide.md
