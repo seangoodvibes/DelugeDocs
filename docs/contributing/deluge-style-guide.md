@@ -19,7 +19,7 @@ Clip
 : A stored sequence of notes or parameter automation associated with a track. Each track can have multiple clips.
 
 Parameter
-: An adjustable value, such as filter frequency, reverb time, or volume. Some parameters can be automated.
+: The name of an adjustable value, such as LPF Frequency, Reverb Room Size, or OSC1 Level. Some parameters can be modulated and automated. Format the name of the parameter like `LPF Frequency` and use the abbreviated name. Refer to the Parameter Abbreviations Table. 
 
 ### Views
 
@@ -38,9 +38,9 @@ For consistency, refer to the views as follows:
 - Chord View
 - Chord Library View
 
-### Display elements
+### Display elements and Menus
 
-- When referring to elements on the OLED display, use **bold** and Title Case.
+- When referring to elements on the OLED display or locations of elements in menus, use **bold** and Title Case.
 
     !!! example
         Open Settings and go to **Defaults** > **Automation**, and enable **Nudge Note**.
@@ -78,6 +78,10 @@ For consistency, refer to the controls as follows:
 - **Tempo**
 - **Output Level**
 
+Use the term "press" when pressing a pad or an encoder.
+Use the term "press and hold" when pressing a pad or an encoder and holding it down for an extended amount of time. 
+Use the term "turn" when rotating an encoder. Turing to the right is clockwise, turning to the left is counterclockwise. 
+
 #### Control combinations
 
 Use `+` for control combinations. The plus sign can be bold or regular.
@@ -86,3 +90,18 @@ Use `+` for control combinations. The plus sign can be bold or regular.
     - To create a new kit, press **Shift+Kit**.
     
     - To clear automation, press **Lower**+**Back/Undo**.
+
+    - To map MIDI channel 1 to the Synth Clip, press **Learn+AuditionPad** then play a MIDI note on channel 1.
+
+#### Modulation
+
+`Source1 -> Destination`  
+`Source2 -> (Source1 -> Destination)`
+
+Use `->` to refer to a source to destination modulation depth, or to refer to the source to destination mapping itself. Use abbreviated versions of the source and destination names. When referring to modulating the modulation depth of an existing source to destination mapping, use parenthesis around the existing mapping.
+
+!!! example "Examples"
+    - Increase `LFO2 -> OSC1 Transpose` from 10 to 20 to modulate OSC1 frequency across a wider range. 
+    - Play a note while turning up the modulation depth for `LFO2 -> OSC1 Transpose`. 
+    - Adjust the `ENV2 -> (LFO2 -> OSC1 Transpose)` modulation depth to have `ENV2` control how much `LFO2` affects `OSC1 Transpose`. 
+    - `MIDI CC2 -> OSC1 Transpose` refers to `MIDI CC2` controlling `OSC1 Transpose`. 

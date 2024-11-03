@@ -94,12 +94,7 @@ nav:
           - Ring modulation: documentation/sound-engine/synth-engine/modes/ring-modulation.md
         - Oscillator:
           - Types:
-            - Sine: documentation/sound-engine/synth-engine/oscillator/types/sine.md
-            - Triangle: documentation/sound-engine/synth-engine/oscillator/types/triangle.md
-            - Square: documentation/sound-engine/synth-engine/oscillator/types/square.md
-            - Analog square: documentation/sound-engine/synth-engine/oscillator/types/analog-square.md
-            - Saw: documentation/sound-engine/synth-engine/oscillator/types/saw.md
-            - Analog saw: documentation/sound-engine/synth-engine/oscillator/types/analog-saw.md
+            - Basic Shapes: documentation/sound-engine/synth-engine/oscillator/types/basic-shapes.md
             - Wavetable: documentation/sound-engine/synth-engine/oscillator/types/wavetable.md
             - Sample: documentation/sound-engine/synth-engine/oscillator/types/sample.md
             - Input: documentation/sound-engine/synth-engine/oscillator/types/input.md
