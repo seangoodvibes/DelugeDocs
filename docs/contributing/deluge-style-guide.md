@@ -1,6 +1,6 @@
 # Deluge style guide
 
-This extension to the style guide provides Deluge-specific instructions for referring to song parts, views, controls, and display elements.
+This Deluge-specific style guide defined how to refer to song parts, views, controls, and display elements.
 
 ## Terminology
 
