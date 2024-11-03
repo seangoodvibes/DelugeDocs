@@ -79,9 +79,31 @@ nav:
         - Audio clip: documentation/views/clip/audio-clip.md
         - Instrument clip:
           - Instrument clip: documentation/views/clip/instrument-clip/instrument-clip.md
+          - Keyboard: documentation/views/clip/instrument-clip/keyboard.md
           - Note editor: documentation/views/clip/instrument-clip/note-editor.md
           - Note row editor: documentation/views/clip/instrument-clip/note-row-editor.md
           - Velocity editor: documentation/views/clip/instrument-clip/velocity-editor.md
+      - Automation: documentation/views/automation.md
+      - Performance: documentation/views/performance.md
+    - Sound engine:
+      - Synth engine:
+        - Specs: documentation/sound-engine/synth-engine/specs.md
+        - Mode: 
+          - Subtractive: documentation/sound-engine/synth-engine/modes/subtractive.md
+          - Fm: documentation/sound-engine/synth-engine/modes/fm.md
+          - Ring modulation: documentation/sound-engine/synth-engine/modes/ring-modulation.md
+        - Oscillator:
+          - Type:
+            - Sine: documentation/sound-engine/synth-engine/oscillator/type/sine.md
+            - Triangle: documentation/sound-engine/synth-engine/oscillator/type/triangle.md
+            - Square: documentation/sound-engine/synth-engine/oscillator/type/square.md
+            - Analog square: documentation/sound-engine/synth-engine/oscillator/type/analog-square.md
+            - Saw: documentation/sound-engine/synth-engine/oscillator/type/saw.md
+            - Analog saw: documentation/sound-engine/synth-engine/oscillator/type/analog-saw.md
+            - Wavetable: documentation/sound-engine/synth-engine/oscillator/type/wavetable.md
+            - Sample: documentation/sound-engine/synth-engine/oscillator/type/sample.md
+            - Input: documentation/sound-engine/synth-engine/oscillator/type/input.md
+            - Dx7: documentation/sound-engine/synth-engine/oscillator/type/dx7.md
   - Quick reference: quick-reference/quick-reference.md
   - External resources:
     - external-resources/external-resources.md
