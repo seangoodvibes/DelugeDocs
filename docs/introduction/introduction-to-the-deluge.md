@@ -23,8 +23,8 @@ Add a variety of effects to certain layers or your whole song, such as delay, re
 
 Jam in realtime by recording and looping layers. You can play the synths and samples in the Deluge or record live guitar, vocals, or other gear through the line in input or built-in microphone. Loop a section while you capture your performance, introduce layers, and change out parts.
 
-## Controlling and sequencing a collection external gear
+## Controlling and sequencing external gear
 
-The Deluge can control and sequence the other synthesizers, drum machines, effects units, and other devices in your studio using MIDI DIN, USB MIDI, or CV. Sketch out a song using the internal synth engine while on the go, then change layers to use your external gear instead. You can automate program and control changes using the sequencer.
+The Deluge can control the other synthesizers, drum machines, effects units, and other devices in your studio using MIDI DIN, USB MIDI, or CV. Sketch out a song using the internal synth engine while on the go, then connect to your home setup and change the layers to use your external instruments instead. Automate program changes to restore the state of your other hardware when you load a song, and sequence control changes to create a dynamic performance. The Deluge can control 16 or more external devices, making it a powerful control centre for your whole studio.
 
-You can also use your external gear to control the Deluge. Connect your full-size MPE keyboard or favourite MIDI controller to play and control the onboard Deluge instruments and any gear the Deluge is connected to.
+You can also use your external gear to control the Deluge. Connect your full-size MPE keyboard or favourite MIDI controller to play and control the onboard Deluge instruments and any gear the Deluge is connected to using custom-defined MIDI CC mappings for any parameter.

@@ -9,7 +9,9 @@ There are two ways to contribute:
 
 ## Resources
 
-If you want to talk with other Deluge documentation contributors, join us on the [Deluge Community Discord](https://discord.gg/SK8efrna) and look for the [Deluge Documentation Initiative](https://discord.com/channels/608916579421257728/1292168517432381480) channel.
+If you want to talk with other Deluge documentation contributors, join the [Deluge Community Discord](https://discord.gg/SK8efrna) and look for the [Deluge Documentation Initiative](https://discord.com/channels/608916579421257728/1292168517432381480) channel.
+
+[:fontawesome-brands-discord: Join the Deluge Community Discord](https://discord.gg/SK8efrn){ .md-button .md-button--primary }
 
 ## Requirements
 

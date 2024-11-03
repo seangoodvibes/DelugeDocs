@@ -17,12 +17,23 @@ theme:
         - navigation.tabs     
         - navigation.expand 
 
+# Extensions
+markdown_extensions:
+  - def_list
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 # Navigation
 nav:
   - Welcome: index.md
   - Documentation:
     - Introduction:
-      - What can the Deluge do?: introduction/what-can-the-deluge-do.md 
+      - Introduction to the Deluge: introduction/introduction-to-the-deluge.md
       - Concepts: introduction/concepts.md
     - Getting started:
       - Firmware: getting-started/firmware.md
@@ -45,4 +56,5 @@ nav:
       - Shortcuts companion: https://fheft.github.io/deluge-companion/
   - Contributing:
     - Contributing to the documentation: contributing/contributing-to-the-docs.md
-    - Style guide: contributing/style-guide.md
+    - Language style guide: contributing/language-style-guide.md
+    - Deluge style guide: contributing/deluge-style-guide.md

@@ -1,4 +1,4 @@
-# Documentation style guide
+# Language style guide
 
 To make the documentation consistent and accessible, you should try to align your content with the following style standards.
 
@@ -17,13 +17,12 @@ The right table of contents (ToC) for a page is defined by the sections (`##` an
 
 ### File naming conventions
 
-Use lowercase, hyphenated names for all Markdown files, such as `getting-started.md`. Use consise and descriptive names. The file name should match the H1 heading for the page, but it's okay to use abbreviations.
+Use lowercase, hyphenated names for all Markdown files, such as `getting-started.md`. Use consise and descriptive names. The file name should match the H1 heading for the page. It's okay to use abbreviations in the filename.
 
-For example:
-```
-contributing-to-the-docs.md
-# Contributing to the documentation
-```
+!!! example
+        contributing-to-the-docs.md
+        # Contributing to the documentation
+    
 
 ## Page structure
 
@@ -62,12 +61,29 @@ Use consistent heading language allows readers to build a mental model of the do
 
 These style guidelines help make the documentation accessible to people from various language backgrounds and abilities.
 
-- Tone: Use a clear, friendly, and professional tone.
-- Voice: Prefer the active voice (e.g., “Install the package” rather than “The package is installed”).
-- Pronouns: Address the reader as “you” when giving instructions.
-- Tense: Use present tense where possible (e.g., “This command installs…”).
-- Clarity: Aim for concise, plain language. Avoid jargon, idioms, and complex sentences.
+### Tone
 
+Use a clear, friendly, and professional tone. Talk to the reader as though they were a friendly business acquaintance. Contractions and informal language are okay.
+
+Avoid casual language, slang, and humour because it doesn't translate well.
+
+### Voice
+
+Prefer the active voice, such as “Save your song by...” rather than “The song is saved by...”.
+
+### Pronouns
+
+Address the reader as “you” when giving instructions.
+
+### Tense
+
+Use present tense where possible, such as “Pressing **Back/Undo** reverts the last action”.
+
+### Clarity
+
+Aim for concise, plain language. Avoid jargon, idioms, and complex sentences.
+
+## Page elements
 
 ### Lists
 
@@ -82,12 +98,14 @@ These style guidelines help make the documentation accessible to people from var
     - If any of the items in the list requires a period, use periods for the whole list.
 - Keep list items parallel by:
     - Starting all items with a verb or all items with a noun.
-- When introducing a list, end the paragraph with a colon (`:`). For example:
+- When introducing a list, end the paragraph with a colon (`:`).
 
-        The Deluge has three song-writing modes:
-        - Arranger mode
-        - Rows mode
-        - Grid mode
+!!! example
+    The Deluge has three song-writing modes:
+
+    - Arranger View
+    - Song Rows View
+    - Song Grid View
 
 ### Links
 - Use descriptive text for links, such as [GitHub Markdown Guide](https://example.com) instead of [click here](https://example.com).
@@ -104,9 +122,9 @@ These style guidelines help make the documentation accessible to people from var
 - Use relative image paths starting from the page location, such as `../../images/image.jpg`.
 - Include alt text that provide a description of the image for accessibility.
 
-#### Example
+!!! example
 
-    ![An image of the Edit button at the top of a GitHub page](../images/github-commit-button.jpg "GitHub Commit button")
+        ![An image of the Edit button at the top of a GitHub page](../images/github-commit-button.jpg "GitHub Commit button")
 
 
 ### Tables
@@ -116,8 +134,32 @@ These style guidelines help make the documentation accessible to people from var
 - Don't use tables to force a page structure.
 
 ### Providing examples
+
+#### Introducing examples
+
 - Use "such as" or "for example" (instead of "e.g.")
     - Prefer: "For more information, see the [GitHub Markdown Guide](https://example.com)"
     - Avoid: "For more information, [click here](https://example.com)"
 - Use "that is" instead of "i.e."
 - Use "and similar" or "and so on" instead of "etc."
+
+#### Example steps
+
+If you want to provide a series of steps to illustrate an example of a workflow, use an Example callout:
+
+    !!! example "Creating a neurofunk bass"
+        - Low pass filter with resonance
+        - Add in the Saturation
+        - Turn up both OSC Levels
+        - Detune them slightly with Transpose -5 cent on OSC1 and + 5 cents on OSC2
+        - Turn Synth Voices to 2 voices, and play with the voice detune amount
+        - Adjust / Automate the Transpose detuning, filter cutoff, and distortion to taste. 
+
+
+!!! example "Creating a neurofunk bass"
+    - Low pass filter with resonance
+    - Add in the Saturation
+    - Turn up both OSC Levels
+    - Detune them slightly with Transpose -5 cent on OSC1 and + 5 cents on OSC2
+    - Turn Synth Voices to 2 voices, and play with the voice detune amount
+    - Adjust / Automate the Transpose detuning, filter cutoff, and distortion to taste. 
