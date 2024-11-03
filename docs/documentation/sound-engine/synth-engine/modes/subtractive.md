@@ -9,15 +9,15 @@ The LFOs can modulate the oscillator transpose at audio rate, which imitates FM 
 When a note is played, `ENV2` begins to move through its stages modulating the modulation depth of `LFO2 -> OSC1 Transpose`. `ENV2` decays to the value set by `ENV2 Sustain`.
 
 !!! example "Examples"
-  - If `ENV2 Sustain` is set to 25, `LFO2 -> OSC1 Transpose` will settle to the set value, in this case 10.
-  - If `ENV2 Sustain` is set to 0, `LFO2 -> OSC1 Transpose` will settle towards 0.
-  - If `ENV2 Sustain` is set to 50, `LFO2 -> OSC1 Transpose` will settle towards a value higher than 10. 
+    - If `ENV2 Sustain` is set to 25, `LFO2 -> OSC1 Transpose` will settle to the set value, in this case 10.
+    - If `ENV2 Sustain` is set to 0, `LFO2 -> OSC1 Transpose` will settle towards 0.
+    - If `ENV2 Sustain` is set to 50, `LFO2 -> OSC1 Transpose` will settle towards a value higher than 10. 
 
 From here, there are many possibilities.
 
 !!! example "Experiments"
-- Adjust the waveshapes of the LFOs for different tones.
-- The `LFO2 Rate` can be modulated with another source to get variation in tone.
-- `ENV2 Sustain` can be modulated using LFOs.
-- `LFO1` could be used as another audio rate modulation source.
-- The LFOs could be used to FM the `LPF Frequency` instead of `OSC1 Transpose` for a different effect. 
+    - Adjust the waveshapes of the LFOs for different tones.
+    - The `LFO2 Rate` can be modulated with another source to get variation in tone.
+    - `ENV2 Sustain` can be modulated using LFOs.
+    - `LFO1` could be used as another audio rate modulation source.
+    - The LFOs could be used to FM the `LPF Frequency` instead of `OSC1 Transpose` for a different effect. 
