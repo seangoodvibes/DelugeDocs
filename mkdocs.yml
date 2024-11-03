@@ -49,6 +49,25 @@ nav:
           - SD card: documentation/getting-started/device-overview/sd-card.md
           - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
           - Performance: documentation/getting-started/device-overview/performance.md
+    - Track:
+      - Type: 
+        - Audio: documentation/track/type/audio.md
+        - Synth: documentation/track/type/synth.md
+        - Kit: documentation/track/type/kit.md
+        - Midi: documentation/track/type/midi.md
+        - Cv: documentation/track/type/cv.md
+      - Swing: documentation/track/swing.md
+      - Tempo: documentation/track/tempo.md
+    - Views:
+      - Arranger: documentation/views/arranger.md
+      - Song:
+        - Song: documentation/views/song/song.md
+        - Modes: 
+          - Grid: documentation/views/song/modes/grid.md
+          - Row: documentation/views/song/modes/row.md
+      - Clip:
+        - Audio clip: documentation/views/clip/audio-clip.md
+        - Instrument clip: documentation/views/clip/instrument-clip.md
   - Quick reference: quick-reference/quick-reference.md
   - External resources:
     - external-resources/external-resources.md
