@@ -46,6 +46,9 @@ nav:
               - Pads: getting-started/device-overview/controls/pads.md
           - Ports: getting-started/device-overview/ports.md
           - Display: getting-started/device-overview/display.md
+          - SD card: getting-started/device-overview/sd-card.md
+          - MPE setup: getting-started/device-overview/mpe-setup.md
+          - Performance: getting-started/device-overview/performance.md
   - Quick reference: quick-reference/quick-reference.md
   - External resources:
     - external-resources/external-resources.md
