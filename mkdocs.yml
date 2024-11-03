@@ -33,22 +33,22 @@ nav:
   - Welcome: index.md
   - Documentation:
     - Introduction:
-      - Introduction to the Deluge: introduction/introduction-to-the-deluge.md
-      - Concepts: introduction/concepts.md
+      - Introduction to the Deluge: documentation/introduction/introduction-to-the-deluge.md
+      - Concepts: documentation/introduction/concepts.md
     - Getting started:
-      - Firmware: getting-started/firmware.md
+      - Firmware: documentation/getting-started/firmware.md
       - Device overview: 
-          - Diagram: getting-started/device-overview/diagram.md
-          - Power: getting-started/device-overview/power.md
+          - Diagram: documentation/getting-started/device-overview/diagram.md
+          - Power: documentation/getting-started/device-overview/power.md
           - Controls:
-              - Knobs: getting-started/device-overview/controls/knobs.md
-              - Buttons: getting-started/device-overview/controls/buttons.md
-              - Pads: getting-started/device-overview/controls/pads.md
-          - Ports: getting-started/device-overview/ports.md
-          - Display: getting-started/device-overview/display.md
-          - SD card: getting-started/device-overview/sd-card.md
-          - MPE setup: getting-started/device-overview/mpe-setup.md
-          - Performance: getting-started/device-overview/performance.md
+              - Knobs: documentation/getting-started/device-overview/controls/knobs.md
+              - Buttons: documentation/getting-started/device-overview/controls/buttons.md
+              - Pads: documentation/getting-started/device-overview/controls/pads.md
+          - Ports: documentation/getting-started/device-overview/ports.md
+          - Display: documentation/getting-started/device-overview/display.md
+          - SD card: documentation/getting-started/device-overview/sd-card.md
+          - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
+          - Performance: documentation/getting-started/device-overview/performance.md
   - Quick reference: quick-reference/quick-reference.md
   - External resources:
     - external-resources/external-resources.md
