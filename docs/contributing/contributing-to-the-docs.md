@@ -66,6 +66,5 @@ To submit changes back to the repository:
 
 1. Use Git to track changes in the files you modified.
 1. Commit the changes with a brief, descriptive commit message.
-1. Create a pull request (PR) to submit your changes.
 
-After your PR is accepted, GitHub starts building the HTML for the site based on the updated files. This typically takes 30-60 seconds. When the build is complete, you can refresh the documentation site to see your changes.
+After commiting your changes, GitHub starts building the HTML for the site based on the updated files. This typically takes 30-60 seconds. When the build is complete, you can refresh the documentation site to see your changes.
