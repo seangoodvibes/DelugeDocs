@@ -15,7 +15,6 @@ theme:
     features:
         - content.action.edit
         - navigation.tabs     
-        - navigation.expand 
 
 # Extensions
 markdown_extensions:
