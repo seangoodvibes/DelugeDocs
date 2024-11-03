@@ -60,6 +60,7 @@ nav:
       - Shortcuts companion: https://fheft.github.io/deluge-companion/
       - Kit Generator: https://deluge-kit-generator.vercel.app
       - Commander: https://neuma.studio/deluge-commander/
+      - Delugeator: https://forums.synthstrom.com/discussion/3590/delugeator-1-0-a-win-10-kit-editor-for-deluge-released
   - Contributing:
     - Contributing to the documentation: contributing/contributing-to-the-docs.md
     - Language style guide: contributing/language-style-guide.md
