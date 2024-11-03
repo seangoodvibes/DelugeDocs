@@ -60,12 +60,12 @@ nav:
         - Midi: documentation/menu/instrument-clip/midi-menu-hierarchy.md
         - Cv: documentation/menu/instrument-clip/cv-menu-hierarchy.md
     - Track:
-      - Type: 
-        - Audio: documentation/track/type/audio.md
-        - Synth: documentation/track/type/synth.md
-        - Kit: documentation/track/type/kit.md
-        - Midi: documentation/track/type/midi.md
-        - Cv: documentation/track/type/cv.md
+      - Types: 
+        - Audio: documentation/track/types/audio.md
+        - Synth: documentation/track/types/synth.md
+        - Kit: documentation/track/types/kit.md
+        - Midi: documentation/track/types/midi.md
+        - Cv: documentation/track/types/cv.md
       - Swing: documentation/track/swing.md
       - Tempo: documentation/track/tempo.md
     - Views:
@@ -86,24 +86,26 @@ nav:
       - Automation: documentation/views/automation.md
       - Performance: documentation/views/performance.md
     - Sound engine:
+      - Specs: documentation/sound-engine/specs.md
       - Synth engine:
-        - Specs: documentation/sound-engine/synth-engine/specs.md
-        - Mode: 
+        - Modes: 
           - Subtractive: documentation/sound-engine/synth-engine/modes/subtractive.md
-          - Fm: documentation/sound-engine/synth-engine/modes/fm.md
+          - FM: documentation/sound-engine/synth-engine/modes/fm.md
           - Ring modulation: documentation/sound-engine/synth-engine/modes/ring-modulation.md
         - Oscillator:
-          - Type:
-            - Sine: documentation/sound-engine/synth-engine/oscillator/type/sine.md
-            - Triangle: documentation/sound-engine/synth-engine/oscillator/type/triangle.md
-            - Square: documentation/sound-engine/synth-engine/oscillator/type/square.md
-            - Analog square: documentation/sound-engine/synth-engine/oscillator/type/analog-square.md
-            - Saw: documentation/sound-engine/synth-engine/oscillator/type/saw.md
-            - Analog saw: documentation/sound-engine/synth-engine/oscillator/type/analog-saw.md
-            - Wavetable: documentation/sound-engine/synth-engine/oscillator/type/wavetable.md
-            - Sample: documentation/sound-engine/synth-engine/oscillator/type/sample.md
-            - Input: documentation/sound-engine/synth-engine/oscillator/type/input.md
-            - Dx7: documentation/sound-engine/synth-engine/oscillator/type/dx7.md
+          - Types:
+            - Sine: documentation/sound-engine/synth-engine/oscillator/types/sine.md
+            - Triangle: documentation/sound-engine/synth-engine/oscillator/types/triangle.md
+            - Square: documentation/sound-engine/synth-engine/oscillator/types/square.md
+            - Analog square: documentation/sound-engine/synth-engine/oscillator/types/analog-square.md
+            - Saw: documentation/sound-engine/synth-engine/oscillator/types/saw.md
+            - Analog saw: documentation/sound-engine/synth-engine/oscillator/types/analog-saw.md
+            - Wavetable: documentation/sound-engine/synth-engine/oscillator/types/wavetable.md
+            - Sample: documentation/sound-engine/synth-engine/oscillator/types/sample.md
+            - Input: documentation/sound-engine/synth-engine/oscillator/types/input.md
+            - DX7: documentation/sound-engine/synth-engine/oscillator/types/dx7.md
+      - LFOs: documentation/sound-engine/lfos.md
+      - Envelopes: documentation/sound-engine/envelopes.md
   - Quick reference: quick-reference/quick-reference.md
   - External resources:
     - external-resources/external-resources.md
