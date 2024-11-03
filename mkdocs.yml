@@ -48,6 +48,17 @@ nav:
           - SD card: documentation/getting-started/device-overview/sd-card.md
           - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
           - Performance: documentation/getting-started/device-overview/performance.md
+    - Menu:
+      - Settings: documentation/menu/settings/settings-menu-hierarchy.md
+      - Song: documentation/menu/song/song-menu-hierarchy.md
+      - Performance: documentation/menu/performance/performance-menu-hierarchy.md
+      - Audio clip:
+        - Audio: documentation/menu/audio-clip/audio-clip-menu-hierarchy.md
+      - Instrument clip: 
+        - Sound: documentation/menu/instrument-clip/sound-menu-hierarchy.md
+        - Kit affect entire: documentation/menu/instrument-clip/kit-affect-entire-menu-hierarchy.md
+        - Midi: documentation/menu/instrument-clip/midi-menu-hierarchy.md
+        - Cv: documentation/menu/instrument-clip/cv-menu-hierarchy.md
     - Track:
       - Type: 
         - Audio: documentation/track/type/audio.md
