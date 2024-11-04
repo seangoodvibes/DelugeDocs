@@ -4,8 +4,8 @@ You're welcome to contribute to this documentation whether you're a Deluge Commu
 
 There are two ways to contribute:
 
-* Using the GitHub website, for casual contributors
-* Using a local development environment, for major contributors
+* Using the GitHub website, for contributing to individual pages
+* Using a local development environment, for contributing multiple pages, images, and changes to navigation or site configuration
 
 ## Resources
 
@@ -17,9 +17,9 @@ If you want to talk with other Deluge documentation contributors, join the [Delu
 
 To make changes to the site, you need a [GitHub account](https://github.com/signup).
 
-## For casual contributors
+## Contributing through the GitHub website
 
-If you want to work on individual pages, refine existing content, correct a typo, or similar, you can do so through the GitHub website.
+If you want to work on individual pages, such as correcting a typo or expanding on a topic, you can do so through the GitHub website.
 
 You need a GitHub account and permission to work on the project, but no other setup or tools are required.
 
@@ -34,9 +34,9 @@ You need a GitHub account and permission to work on the project, but no other se
 
     ![An image of the Edit button at the top of a GitHub page](../images/github-commit-button.jpg "GitHub Commit button")
 
-## For major contributors
+## Contributing through a local development environment
 
-If you want to make more substantial contributions, we recommend that you clone the repository to your local computer, make changes, then submit your changes back to the respository. This allows you to write in the code editor of your choice, work with multiple files, and preview the results.
+If you want to make more substantial contributions, you can clone the repository to your local computer, make changes, then submit your changes back to the respository. This allows you to write in the code editor of your choice, work with multiple files, and preview the results.
 
 ### Setting up a development environment
 
