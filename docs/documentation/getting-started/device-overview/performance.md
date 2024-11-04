@@ -1,5 +1,11 @@
 # Performance
 
+## Scheduler
+
+Provide an overview of the scheduler and how it helps the Deluge manage performance
+
+## Synth voices and samples
+
 The Deluge can handle much fewer samples than synth voices.
 
 Here are some approximate numbers:
