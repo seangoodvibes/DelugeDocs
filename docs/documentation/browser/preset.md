@@ -4,4 +4,4 @@
 
 ## Kit
 
-## Midi
+## MIDI

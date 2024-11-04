@@ -156,7 +156,7 @@ The Settings menu contains the following menu hierarchy:
 			- New Clip Type (TYPE)
 				- Synth
 				- Kit
-				- Midi
+				- MIDI
 				- CV
 				- Audio
 			- Use Last Clip Type (LAST)

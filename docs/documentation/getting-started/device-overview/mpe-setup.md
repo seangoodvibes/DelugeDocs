@@ -13,7 +13,7 @@ An example config might look like this - Lower zone of 7 and an upper zone of 6,
 12. Upper Zone Member   | 6 member channels
 11. Upper Zone Member   |
 10. Upper Zone Member   | (last upper zone member)
-9.  Midi Channel 9
+9.  MIDI Channel 9
 8.  Lower Zone Member   | (last lower zone member)
 7.  Lower Zone Member   |
 6.  Lower Zone Member   |
@@ -25,7 +25,7 @@ An example config might look like this - Lower zone of 7 and an upper zone of 6,
 ```
 ## Configuration
 
-### Midi device
+### MIDI device
 In the deluge MPE is configured per device in the midi menu, at `settings->midi->devices->device name->mpe`
 
 #### Zones

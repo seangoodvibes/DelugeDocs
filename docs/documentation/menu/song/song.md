@@ -148,7 +148,7 @@ The Song menu contains the following menu hierarchy:
 
 ## Configure Macros (MACR)
 
-## Midi Learn (MIDI)
+## MIDI Learn (MIDI)
 
 ## Stem Export (STEM)
 

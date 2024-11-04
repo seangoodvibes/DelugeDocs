@@ -1,1 +1,1 @@
-# Midi device definition file
+# MIDI device definition file
