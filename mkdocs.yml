@@ -92,7 +92,10 @@ nav:
           - Note editor: documentation/views/clip/instrument-clip/note-editor.md
           - Note row editor: documentation/views/clip/instrument-clip/note-row-editor.md
           - Velocity editor: documentation/views/clip/instrument-clip/velocity-editor.md
-      - Automation: documentation/views/automation.md
+      - Automation: 
+        - Parameter overview: documentation/views/automation/parameter-overview.md
+        - Parameter editor: documentation/views/automation/parameter-editor.md
+        - Note velocity editor: documentation/views/automation/note-velocity-editor.md
       - Performance: documentation/views/performance.md
     - Sound engine:
       - Specs: documentation/sound-engine/specs.md
