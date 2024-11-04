@@ -89,7 +89,8 @@ nav:
     - Song:
       - Scale: documentation/song/scale.md
       - Swing: documentation/song/swing.md
-      - Tempo: documentation/song/tempo.md       
+      - Tempo: documentation/song/tempo.md 
+    - Arrangement: documentation/arrangement.md  
     - Track:
       - Track: documentation/track/track.md
       - Types: 
