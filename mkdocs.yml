@@ -139,6 +139,7 @@ nav:
           - Performance: documentation/ui/views/performance/performance.md
           - Value editor: documentation/ui/views/performance/value-editor.md
           - Layout editor: documentation/ui/views/performance/layout-editor.md
+      - Rename: documentation/ui/rename.md
     - Sound engine:
       - Specs: documentation/sound-engine/specs.md
       - Synth engine:
