@@ -93,6 +93,7 @@ nav:
             - CV: documentation/project/clip/instrument-clip/types/cv-clip.md
       - Section: documentation/project/section.md
       - Playback modes: documentation/project/playback-modes.md  
+      - Stem export: documentation/project/stem-export.md
     - User interface:
       - User interface: documentation/ui/user-interface.md
       - Menu:
