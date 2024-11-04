@@ -8,13 +8,14 @@ edit_uri: edit/main/docs/
 # Configuration
 theme:
     name: material
+    logo: assets/logo.png  
     palette: 
         scheme: slate
         primary: black
         accent: yellow
     features:
         - content.action.edit
-        - navigation.tabs     
+        - navigation.tabs   
 
 # Extensions
 markdown_extensions:
