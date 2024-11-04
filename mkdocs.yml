@@ -49,23 +49,26 @@ nav:
           - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
           - Performance: documentation/getting-started/device-overview/performance.md
     - Menu:
-      - Settings: documentation/menu/settings/settings-menu-hierarchy.md
-      - Song: documentation/menu/song/song-menu-hierarchy.md
-      - Performance: documentation/menu/performance/performance-menu-hierarchy.md
-      - Audio clip:
-        - Audio: documentation/menu/audio-clip/audio-clip-menu-hierarchy.md
+      - Settings: documentation/menu/settings.md
+      - Song: 
+          - Song: documentation/menu/song/song.md
+          - Clip settings: documentation/menu/song/clip-settings.md
+      - Performance: documentation/menu/performance.md
+      - Audio clip: documentation/menu/audio-clip.md
       - Instrument clip: 
-        - Sound: documentation/menu/instrument-clip/sound-menu-hierarchy.md
-        - Kit affect entire: documentation/menu/instrument-clip/kit-affect-entire-menu-hierarchy.md
-        - Midi: documentation/menu/instrument-clip/midi-menu-hierarchy.md
-        - Cv: documentation/menu/instrument-clip/cv-menu-hierarchy.md
+        - Sound: documentation/menu/instrument-clip/sound.md
+        - Kit affect entire: documentation/menu/instrument-clip/kit-affect-entire.md
+        - Midi: documentation/menu/instrument-clip/midi.md
+        - CV: documentation/menu/instrument-clip/cv.md
+        - Note editor: documentation/menu/instrument-clip/note-editor.md
+        - Note row editor: documentation/menu/instrument-clip/note-row-editor.md
     - Track:
       - Types: 
         - Audio: documentation/track/types/audio.md
         - Synth: documentation/track/types/synth.md
         - Kit: documentation/track/types/kit.md
         - Midi: documentation/track/types/midi.md
-        - Cv: documentation/track/types/cv.md
+        - CV: documentation/track/types/cv.md
       - Swing: documentation/track/swing.md
       - Tempo: documentation/track/tempo.md
     - Views:

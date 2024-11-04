@@ -13,7 +13,7 @@ Project
 : A file on the SD card associated with a song. Use this only when referring to the file system, such as saving or deleting projects.
 
 Track
-: A single instrument or layer in a song. Each track is one of the following types: synth, drum kit, MIDI, CV, audio, or DX7. Tracks contain one or more clips. NOTE: Don't use "track" to mean song or project, such as "track tempo". Use "song tempo".
+: A single instrument or layer in a song. Each track is one of the following types: synth, kit, MIDI, CV, or audio. Tracks contain one or more clips. NOTE: Don't use "track" to mean song or project, such as "track tempo". Use "song tempo".
 
 Clip
 : A stored sequence of notes or parameter automation associated with a track. Each track can have multiple clips.
@@ -28,8 +28,8 @@ Parameter
 
 For consistency, refer to the views as follows:
 
-- Song Row View
 - Arranger View
+- Song Row View
 - Song Grid View
 - Keyboard View
 - Performance View
