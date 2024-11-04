@@ -83,14 +83,15 @@ nav:
         - Instrument Clip:
           - Instrument Clip: documentation/project/clip/instrument-clip/instrument-clip.md
           - Types:
-            - Synth: documentation/project/clip/instrument-clip/types/synth-clip.md
+            - Melodic:
+              - Synth: documentation/project/clip/instrument-clip/types/melodic/synth-clip.md
+              - MIDI: documentation/project/clip/instrument-clip/types/melodic/midi-clip.md
+              - CV: documentation/project/clip/instrument-clip/types/melodic/cv-clip.md
             - Kit:
               - Kit: documentation/project/clip/instrument-clip/types/kit/kit-clip.md
               - Affect-entire: documentation/project/clip/instrument-clip/types/kit/kit-affect-entire.md
               - Row: 
                 - Drum: documentation/project/clip/instrument-clip/types/kit/row/kit-row-drum.md
-            - MIDI: documentation/project/clip/instrument-clip/types/midi-clip.md
-            - CV: documentation/project/clip/instrument-clip/types/cv-clip.md
       - Section: documentation/project/section.md
       - Playback modes: documentation/project/playback-modes.md  
       - Stem export: documentation/project/stem-export.md
@@ -124,9 +125,17 @@ nav:
             - Grid: documentation/ui/views/song/modes/grid.md
             - Row: documentation/ui/views/song/modes/row.md
         - Clip:
-          - Audio clip: documentation/ui/views/clip/audio-clip.md
+          - Audio clip: 
+            - Audio clip: documentation/ui/views/clip/audio-clip/audio-clip.md
+            - Audio clip waveform editor: documentation/ui/views/clip/audio-clip/audio-clip-waveform-editor.md
           - Instrument clip:
             - Instrument clip: documentation/ui/views/clip/instrument-clip/instrument-clip.md
+            - Melodic instrument clip:
+              - Melodic instrument clip: documentation/ui/views/clip/instrument-clip/melodic-instrument-clip/melodic-instrument-clip.md
+            - Kit clip:
+              - Kit clip: documentation/ui/views/clip/instrument-clip/kit-clip/kit-clip.md
+              - Kit clip waveform editor: documentation/ui/views/clip/instrument-clip/kit-clip/kit-clip-waveform-editor.md
+              - Kit clip lazy chopping: documentation/ui/views/clip/instrument-clip/kit-clip/kit-clip-lazy-chopping.md
             - Keyboard: documentation/ui/views/clip/instrument-clip/keyboard.md
             - Note editor: documentation/ui/views/clip/instrument-clip/note-editor.md
             - Note row editor: documentation/ui/views/clip/instrument-clip/note-row-editor.md
