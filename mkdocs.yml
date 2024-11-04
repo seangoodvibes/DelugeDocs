@@ -86,15 +86,19 @@ nav:
       - Preset: documentation/browser/preset.md
       - DX7: documentation/browser/dx7.md
       - Midi device definition file: documentation/browser/midi-device-definition-file.md
+    - Song:
+      - Scale: documentation/song/scale.md
+      - Swing: documentation/song/swing.md
+      - Tempo: documentation/song/tempo.md       
     - Track:
+      - Track: documentation/track/track.md
       - Types: 
         - Audio: documentation/track/types/audio.md
         - Synth: documentation/track/types/synth.md
         - Kit: documentation/track/types/kit.md
         - Midi: documentation/track/types/midi.md
         - CV: documentation/track/types/cv.md
-      - Swing: documentation/track/swing.md
-      - Tempo: documentation/track/tempo.md
+    - Clip: documentation/clip.md
     - Views:
       - Arranger: documentation/views/arranger.md
       - Song:
