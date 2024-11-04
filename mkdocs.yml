@@ -60,8 +60,14 @@ nav:
         - Kit affect entire: documentation/menu/instrument-clip/kit-affect-entire.md
         - Midi: documentation/menu/instrument-clip/midi.md
         - CV: documentation/menu/instrument-clip/cv.md
+        - DX7 editor: documentation/menu/instrument-clip/dx7-editor.md
         - Note editor: documentation/menu/instrument-clip/note-editor.md
         - Note row editor: documentation/menu/instrument-clip/note-row-editor.md
+    - Browser:
+      - Song: documentation/browser/song.md
+      - Preset: documentation/browser/preset.md
+      - DX7: documentation/browser/dx7.md
+      - Midi device definition file: documentation/browser/midi-device-definition-file.md
     - Track:
       - Types: 
         - Audio: documentation/track/types/audio.md
