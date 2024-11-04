@@ -130,6 +130,7 @@ nav:
           - Distortion: documentation/sound-engine/fx/types/distortion.md
           - Noise: documentation/sound-engine/fx/types/noise.md
     - Sequencer:
+      - Specs: documentation/sequencer/specs.md
       - Note:
         - Note: documentation/sequencer/note/note.md
         - Arpeggiator: documentation/sequencer/note/arpeggiator.md
