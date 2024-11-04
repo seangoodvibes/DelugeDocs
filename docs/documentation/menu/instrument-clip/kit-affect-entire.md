@@ -1,8 +1,8 @@
 # Kit affect entire menu hierarchy
 
-The Kit FX menu is accessible from Kit clips when affect entire is enabled by pressing on the `SELECT ENCODER`
+The Kit affect entire menu is accessible from Kit clips when affect entire is enabled by pressing on the `SELECT ENCODER`
 
-The Kit FX menu contains the following menu hierarchy:
+The Kit affect entire menu contains the following menu hierarchy:
 
 ## Master (MASTR)
 
