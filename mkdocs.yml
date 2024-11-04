@@ -78,9 +78,7 @@ nav:
           - CV: documentation/project/track/types/cv.md
       - Clip: 
         - Clip: documentation/project/clip/clip.md
-        - Audio Clip: 
-          - Audio: documentation/project/clip/audio-clip/audio-clip.md
-          - Audio File: documentation/project/clip/audio-clip/audio-file.md
+        - Audio Clip: documentation/project/clip/audio-clip.md
         - Instrument Clip:
           - Synth: documentation/project/clip/instrument-clip/synth-clip.md
           - Kit:
