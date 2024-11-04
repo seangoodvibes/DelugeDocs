@@ -108,8 +108,32 @@ nav:
             - Sample: documentation/sound-engine/synth-engine/oscillator/types/sample.md
             - Input: documentation/sound-engine/synth-engine/oscillator/types/input.md
             - DX7: documentation/sound-engine/synth-engine/oscillator/types/dx7.md
+      - Envelopes: documentation/sound-engine/envelopes.md      
       - LFOs: documentation/sound-engine/lfos.md
-      - Envelopes: documentation/sound-engine/envelopes.md
+      - Modulation:
+        - Parameters: documentation/sound-engine/modulation/parameters.md
+        - Mod matrix: documentation/sound-engine/modulation/mod-matrix.md
+      - Filters:
+        - LPF:
+          - Parameters: documentation/sound-engine/filters/lpf/lpf-parameters.md
+          - Modes: documentation/sound-engine/filters/lpf/lpf-modes.md
+        - HPF:
+          - Parameters: documentation/sound-engine/filters/hpf/hpf-parameters.md
+          - Modes: documentation/sound-engine/filters/hpf/hpf-modes.md
+        - Routing: documentation/sound-engine/filters/filter-routing.md
+      - FX:
+        - Types:
+          - EQ: documentation/sound-engine/fx/types/eq.md
+          - Delay: documentation/sound-engine/fx/types/delay.md
+          - Reverb: documentation/sound-engine/fx/types/reverb.md
+          - Mod-fx: documentation/sound-engine/fx/types/mod-fx.md
+          - Distortion: documentation/sound-engine/fx/types/distortion.md
+          - Noise: documentation/sound-engine/fx/types/noise.md
+    - Sequencer:
+      - Note:
+        - Note: documentation/sequencer/note/note.md
+        - Arpeggiator: documentation/sequencer/note/arpeggiator.md
+      - Automation: documentation/sequencer/automation.md
   - Quick reference: quick-reference/quick-reference.md
   - External resources:
     - external-resources/external-resources.md
