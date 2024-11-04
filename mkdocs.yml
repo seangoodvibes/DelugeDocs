@@ -68,6 +68,7 @@ nav:
           - Performance: documentation/getting-started/device-overview/performance.md
     - Project:
       - Settings: documentation/project/settings.md
+      - Master FX: documentation/project/master-fx.md
       - Track:
         - Track: documentation/project/track/track.md
         - Types: 
@@ -80,14 +81,16 @@ nav:
         - Clip: documentation/project/clip/clip.md
         - Audio Clip: documentation/project/clip/audio-clip.md
         - Instrument Clip:
-          - Synth: documentation/project/clip/instrument-clip/synth-clip.md
-          - Kit:
-            - Kit: documentation/project/clip/instrument-clip/kit/kit-clip.md
-            - Affect-entire: documentation/project/clip/instrument-clip/kit/kit-affect-entire.md
-            - Row: 
-              - Drum: documentation/project/clip/instrument-clip/kit/row/kit-row-drum.md
-          - MIDI: documentation/project/clip/instrument-clip/midi-clip.md
-          - CV: documentation/project/clip/instrument-clip/cv-clip.md
+          - Instrument Clip: documentation/project/clip/instrument-clip/instrument-clip.md
+          - Types:
+            - Synth: documentation/project/clip/instrument-clip/types/synth-clip.md
+            - Kit:
+              - Kit: documentation/project/clip/instrument-clip/types/kit/kit-clip.md
+              - Affect-entire: documentation/project/clip/instrument-clip/types/kit/kit-affect-entire.md
+              - Row: 
+                - Drum: documentation/project/clip/instrument-clip/types/kit/row/kit-row-drum.md
+            - MIDI: documentation/project/clip/instrument-clip/types/midi-clip.md
+            - CV: documentation/project/clip/instrument-clip/types/cv-clip.md
       - Section: documentation/project/section.md
       - Playback modes: documentation/project/playback-modes.md  
     - User interface:
