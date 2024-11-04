@@ -1,4 +1,4 @@
-# Midi menu hierarchy
+# MIDI menu hierarchy
 
 The MIDI Instrument menu is accessible from MIDI clips by pressing on the `SELECT ENCODER`
 
