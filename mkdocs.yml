@@ -10,9 +10,25 @@ theme:
     name: material
     logo: assets/logo.png  
     palette: 
+      - media: "(prefers-color-scheme)"
+        toggle:
+          icon: material/link
+          name: Switch to light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: black
+        accent: indigo
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to dark mode
+      - media: "(prefers-color-scheme: dark)"
         scheme: slate
         primary: black
-        accent: yellow
+        accent: indigo
+        toggle:
+          icon: material/toggle-switch-off
+          name: Switch to system preference
+
     features:
         - content.action.edit
         - navigation.tabs   
