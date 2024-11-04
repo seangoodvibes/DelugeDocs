@@ -9,3 +9,11 @@ An Audio Clip belongs to an Audio Track.
 ## Instrument Clip
 
 An Instrument Clip can belong to a Synth Track, Kit Track, MIDI Track, or CV track.
+
+## Clip settings
+
+### Changing clip type
+
+### Changing clip name
+
+### Changing clip mode

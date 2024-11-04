@@ -76,7 +76,16 @@ nav:
           - Kit: documentation/project/track/types/kit.md
           - MIDI: documentation/project/track/types/midi.md
           - CV: documentation/project/track/types/cv.md
-      - Clip: documentation/project/clip.md
+      - Clip: 
+        - Clip: documentation/project/clip/clip.md
+        - Audio Clip: 
+          - Audio File: documentation/project/clip/audio-clip/audio-file.md
+        - Instrument Clip:
+          - Kit:
+            - Affect-entire: documentation/project/clip/instrument-clip/kit/affect-entire.md
+            - Row: 
+              - Drum: documentation/project/clip/instrument-clip/kit/row/drum.md
+      - Section: documentation/project/section.md
       - Playback modes: documentation/project/playback-modes.md  
     - User interface:
       - User interface: documentation/ui/user-interface.md
