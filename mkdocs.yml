@@ -66,26 +66,51 @@ nav:
           - SD card: documentation/getting-started/device-overview/sd-card.md
           - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
           - Performance: documentation/getting-started/device-overview/performance.md
-    - Menu:
-      - Settings: documentation/menu/settings.md
-      - Song: 
-          - Song: documentation/menu/song/song.md
-          - Clip settings: documentation/menu/song/clip-settings.md
-      - Performance: documentation/menu/performance.md
-      - Audio clip: documentation/menu/audio-clip.md
-      - Instrument clip: 
-        - Sound: documentation/menu/instrument-clip/sound.md
-        - Kit affect entire: documentation/menu/instrument-clip/kit-affect-entire.md
-        - MIDI: documentation/menu/instrument-clip/midi.md
-        - CV: documentation/menu/instrument-clip/cv.md
-        - DX7 editor: documentation/menu/instrument-clip/dx7-editor.md
-        - Note editor: documentation/menu/instrument-clip/note-editor.md
-        - Note row editor: documentation/menu/instrument-clip/note-row-editor.md
-    - Browser:
-      - Song: documentation/browser/song.md
-      - Preset: documentation/browser/preset.md
-      - DX7: documentation/browser/dx7.md
-      - MIDI device definition file: documentation/browser/midi-device-definition-file.md
+    - User interface:
+      - User interface: documentation/ui/user-interface.md
+      - Menu:
+        - Settings: documentation/ui/menu/settings.md
+        - Song: 
+            - Song: documentation/ui/menu/song/song.md
+            - Clip settings: documentation/ui/menu/song/clip-settings.md
+        - Performance: documentation/ui/menu/performance.md
+        - Audio clip: documentation/ui/menu/audio-clip.md
+        - Instrument clip: 
+          - Sound: documentation/ui/menu/instrument-clip/sound.md
+          - Kit affect entire: documentation/ui/menu/instrument-clip/kit-affect-entire.md
+          - MIDI: documentation/ui/menu/instrument-clip/midi.md
+          - CV: documentation/ui/menu/instrument-clip/cv.md
+          - DX7 editor: documentation/ui/menu/instrument-clip/dx7-editor.md
+          - Note editor: documentation/ui/menu/instrument-clip/note-editor.md
+          - Note row editor: documentation/ui/menu/instrument-clip/note-row-editor.md
+      - Browser:
+        - Song: documentation/ui/browser/song.md
+        - Preset: documentation/ui/browser/preset.md
+        - DX7: documentation/ui/browser/dx7.md
+        - MIDI device definition file: documentation/ui/browser/midi-device-definition-file.md
+      - Views:
+        - Arranger: documentation/ui/views/arranger.md
+        - Song:
+          - Song: documentation/ui/views/song/song.md
+          - Modes: 
+            - Grid: documentation/ui/views/song/modes/grid.md
+            - Row: documentation/ui/views/song/modes/row.md
+        - Clip:
+          - Audio clip: documentation/ui/views/clip/audio-clip.md
+          - Instrument clip:
+            - Instrument clip: documentation/ui/views/clip/instrument-clip/instrument-clip.md
+            - Keyboard: documentation/ui/views/clip/instrument-clip/keyboard.md
+            - Note editor: documentation/ui/views/clip/instrument-clip/note-editor.md
+            - Note row editor: documentation/ui/views/clip/instrument-clip/note-row-editor.md
+            - Velocity editor: documentation/ui/views/clip/instrument-clip/velocity-editor.md
+        - Automation: 
+          - Parameter overview: documentation/ui/views/automation/parameter-overview.md
+          - Parameter editor: documentation/ui/views/automation/parameter-editor.md
+          - Note velocity editor: documentation/ui/views/automation/note-velocity-editor.md
+        - Performance: 
+          - Performance: documentation/ui/views/performance/performance.md
+          - Value editor: documentation/ui/views/performance/value-editor.md
+          - Layout editor: documentation/ui/views/performance/layout-editor.md
     - Song:
       - Scale: documentation/song/scale.md
       - Swing: documentation/song/swing.md
@@ -100,29 +125,6 @@ nav:
         - MIDI: documentation/track/types/midi.md
         - CV: documentation/track/types/cv.md
     - Clip: documentation/clip.md
-    - Views:
-      - Arranger: documentation/views/arranger.md
-      - Song:
-        - Song: documentation/views/song/song.md
-        - Modes: 
-          - Grid: documentation/views/song/modes/grid.md
-          - Row: documentation/views/song/modes/row.md
-      - Clip:
-        - Audio clip: documentation/views/clip/audio-clip.md
-        - Instrument clip:
-          - Instrument clip: documentation/views/clip/instrument-clip/instrument-clip.md
-          - Keyboard: documentation/views/clip/instrument-clip/keyboard.md
-          - Note editor: documentation/views/clip/instrument-clip/note-editor.md
-          - Note row editor: documentation/views/clip/instrument-clip/note-row-editor.md
-          - Velocity editor: documentation/views/clip/instrument-clip/velocity-editor.md
-      - Automation: 
-        - Parameter overview: documentation/views/automation/parameter-overview.md
-        - Parameter editor: documentation/views/automation/parameter-editor.md
-        - Note velocity editor: documentation/views/automation/note-velocity-editor.md
-      - Performance: 
-        - Performance: documentation/views/performance/performance.md
-        - Value editor: documentation/views/performance/value-editor.md
-        - Layout editor: documentation/views/performance/layout-editor.md
     - Sound engine:
       - Specs: documentation/sound-engine/specs.md
       - Synth engine:
