@@ -1,4 +1,10 @@
-# Arrangement
+# Playback modes
+
+There are two playback modes on the Deluge, Song and Arrangement
+
+## Song
+
+## Arrangement
 
 placeholder to talk about the deluge's arrangement functionality
 

@@ -66,6 +66,18 @@ nav:
           - SD card: documentation/getting-started/device-overview/sd-card.md
           - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
           - Performance: documentation/getting-started/device-overview/performance.md
+    - Project:
+      - Settings: documentation/project/settings.md
+      - Track:
+        - Track: documentation/project/track/track.md
+        - Types: 
+          - Audio: documentation/project/track/types/audio.md
+          - Synth: documentation/project/track/types/synth.md
+          - Kit: documentation/project/track/types/kit.md
+          - MIDI: documentation/project/track/types/midi.md
+          - CV: documentation/project/track/types/cv.md
+      - Clip: documentation/project/clip.md
+      - Playback modes: documentation/project/playback-modes.md  
     - User interface:
       - User interface: documentation/ui/user-interface.md
       - Menu:
@@ -111,20 +123,6 @@ nav:
           - Performance: documentation/ui/views/performance/performance.md
           - Value editor: documentation/ui/views/performance/value-editor.md
           - Layout editor: documentation/ui/views/performance/layout-editor.md
-    - Song:
-      - Scale: documentation/song/scale.md
-      - Swing: documentation/song/swing.md
-      - Tempo: documentation/song/tempo.md 
-    - Arrangement: documentation/arrangement.md  
-    - Track:
-      - Track: documentation/track/track.md
-      - Types: 
-        - Audio: documentation/track/types/audio.md
-        - Synth: documentation/track/types/synth.md
-        - Kit: documentation/track/types/kit.md
-        - MIDI: documentation/track/types/midi.md
-        - CV: documentation/track/types/cv.md
-    - Clip: documentation/clip.md
     - Sound engine:
       - Specs: documentation/sound-engine/specs.md
       - Synth engine:
