@@ -32,6 +32,7 @@ theme:
     features:
         - content.action.edit
         - navigation.tabs   
+        - navigation.footer
 
 # Extensions
 markdown_extensions:
