@@ -12,11 +12,11 @@ Song
 Project
 : A file on the SD card associated with a song. Use this only when referring to the file system, such as saving or deleting projects.
 
-Output
-: A single instrument or layer in a song. Each output is one of the following types: synth, kit, MIDI, CV, or audio. Outputs contain one or more clips. NOTE: Don't use "output" to mean song or project, such as "output tempo". Use "song tempo".
+Track
+: A single instrument or layer in a song. Each track is one of the following types: synth, kit, MIDI, CV, or audio. Tracks contain one or more clips. NOTE: Don't use "track" to mean song or project, such as "track tempo". Use "song tempo".
 
 Clip
-: A stored sequence of notes or parameter automation associated with a output. Each output can have multiple clips.
+: A stored sequence of notes or parameter automation associated with a track. Each track can have multiple clips.
 
 Parameter
 : The name of an adjustable value, such as LPF Frequency, Reverb Room Size, or OSC1 Level. Some parameters can be modulated and automated. Format the name of the parameter like `LPF Frequency` and use the abbreviated name. Refer to the Parameter Abbreviations Table. 

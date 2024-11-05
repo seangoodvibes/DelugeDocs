@@ -69,14 +69,14 @@ nav:
     - Project:
       - Settings: documentation/project/settings.md
       - Master Parameters: documentation/project/master-parameters.md
-      - Output:
-        - Output: documentation/project/output/output.md
+      - Track:
+        - Track: documentation/project/track/track.md
         - Types: 
-          - Audio: documentation/project/output/types/audio.md
-          - Synth: documentation/project/output/types/synth.md
-          - Kit: documentation/project/output/types/kit.md
-          - MIDI: documentation/project/output/types/midi.md
-          - CV: documentation/project/output/types/cv.md
+          - Audio: documentation/project/track/types/audio.md
+          - Synth: documentation/project/track/types/synth.md
+          - Kit: documentation/project/track/types/kit.md
+          - MIDI: documentation/project/track/types/midi.md
+          - CV: documentation/project/track/types/cv.md
       - Clip: 
         - Clip: documentation/project/clip/clip.md
         - Audio Clip: documentation/project/clip/audio-clip.md
