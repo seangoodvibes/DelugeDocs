@@ -68,7 +68,7 @@ nav:
           - Performance: documentation/getting-started/device-overview/performance.md
     - Project:
       - Settings: documentation/project/settings.md
-      - Master FX: documentation/project/master-fx.md
+      - Master Parameters: documentation/project/master-parameters.md
       - Track:
         - Track: documentation/project/track/track.md
         - Types: 
