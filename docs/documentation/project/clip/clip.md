@@ -1,14 +1,14 @@
 # Clip
 
-Clips are assigned to a track. Based on the track type, the clip will either be an Audio Clip or an Instrument Clip.
+Clips are assigned to a output. Based on the output type, the clip will either be an Audio Clip or an Instrument Clip.
 
 ## Audio Clip
 
-An Audio Clip belongs to an Audio Track.
+An Audio Clip belongs to an Audio output.
 
 ## Instrument Clip
 
-An Instrument Clip can belong to a Synth Track, Kit Track, MIDI Track, or CV track.
+An Instrument Clip can belong to a Synth output, Kit output, MIDI output, or CV output.
 
 ## Clip settings
 

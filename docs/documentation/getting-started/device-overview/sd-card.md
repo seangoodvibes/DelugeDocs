@@ -29,4 +29,4 @@ While specific testing for Deluge is still in early steps, in addition to the in
 
 - Verbatim Premium (stock card that comes with the Deluge). Achieved 3-7 simultaneous streams.
 
-Test procedure - export arranger stems for a song, load them into a kit, and watch for dropouts. Kit is important as audio clips will paper over the dropouts and attempt to resume, kit rows will stop playing. The song must have enough tracks for the total audio size to exceed available memory, 12 stereo tracks at around 1 minute should do it
+Test procedure - export arranger stems for a song, load them into a kit, and watch for dropouts. Kit is important as audio clips will paper over the dropouts and attempt to resume, kit rows will stop playing. The song must have enough outputs for the total audio size to exceed available memory, 12 stereo outputs at around 1 minute should do it
