@@ -1,6 +1,6 @@
 # Power
 
-## Power overview
+## Introduction
 
 You can power the Deluge through the USB port or DC power socket.
 
@@ -8,6 +8,14 @@ The Deluge has an internal battery that can last for over six hours.
 
 !!! info
     The internal battery is shipped with a low charge. When you use the Deluge for the first time, connect to a power source to charge the battety.
+
+### Turning on the Deluge
+
+1. Connect a power source to the USB port or DC power socket.
+
+1. Install the SD card with the metal contacts facing up.
+
+1. Switch the power switch on the rear of the device to **On**.
 
 ## Power Sources
 
@@ -41,11 +49,3 @@ The battery status LED shows yellow for charging, green for charged, or red for 
 You can replace the battery yourself. No special tools or skills are needed.
 
 Replacement batteries should be type “18650” 3.7V Li-ion, either “protected” or “unprotected”. The original battery is 3000mAh, but you can use batteries of any capacity.
-
-## Turning on the Deluge
-
-1. Connect a power source to the USB port or DC power socket.
-
-1. Install the SD card with the metal contacts facing up.
-
-1. Switch the power switch on the rear of the device to **On**.
