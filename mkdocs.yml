@@ -72,26 +72,27 @@ nav:
       - Track:
         - Track: documentation/project/track/track.md
         - Types: 
-          - Audio: documentation/project/track/types/audio.md
-          - Synth: documentation/project/track/types/synth.md
-          - Kit: documentation/project/track/types/kit.md
-          - MIDI: documentation/project/track/types/midi.md
-          - CV: documentation/project/track/types/cv.md
+          - Audio: documentation/project/track/types/audio-track.md
+          - Melodic Instrument:
+            - Melodic Instrument: documentation/project/track/types/melodic-instrument/melodic-instrument-track.md
+            - Types:
+              - Synth: documentation/project/track/types/melodic-instrument/types/synth-melodic-instrument-track.md
+              - MIDI: documentation/project/track/types/melodic-instrument/types/midi-melodic-instrument-track.md
+              - CV: documentation/project/track/types/melodic-instrument/types/cv-melodic-instrument-track.md
+          - Kit: 
+            - Kit: documentation/project/track/types/kit/kit-track.md
+            - Master Parameters: documentation/project/track/types/kit/kit-track-master-parameters.md
+            - Drum:
+              - Drum: documentation/project/track/types/kit/drum/kit-track-drum.md
+              - Types:
+                - Sound: documentation/project/track/types/kit/drum/types/kit-track-sound-drum.md
+                - MIDI: documentation/project/track/types/kit/drum/types/kit-track-midi-drum.md
+                - Gate: documentation/project/track/types/kit/drum/types/kit-track-gate-drum.md
       - Clip: 
         - Clip: documentation/project/clip/clip.md
-        - Audio Clip: documentation/project/clip/audio-clip.md
-        - Instrument Clip:
-          - Instrument Clip: documentation/project/clip/instrument-clip/instrument-clip.md
-          - Types:
-            - Melodic:
-              - Synth: documentation/project/clip/instrument-clip/types/melodic/synth-clip.md
-              - MIDI: documentation/project/clip/instrument-clip/types/melodic/midi-clip.md
-              - CV: documentation/project/clip/instrument-clip/types/melodic/cv-clip.md
-            - Kit:
-              - Kit: documentation/project/clip/instrument-clip/types/kit/kit-clip.md
-              - Affect-entire: documentation/project/clip/instrument-clip/types/kit/kit-affect-entire.md
-              - Row: 
-                - Drum: documentation/project/clip/instrument-clip/types/kit/row/kit-row-drum.md
+        - Types:
+          - Audio Clip: documentation/project/clip/types/audio-clip.md
+          - Instrument Clip: documentation/project/clip/types/instrument-clip.md
       - Section: documentation/project/section.md
       - Playback modes: documentation/project/playback-modes.md  
       - Stem export: documentation/project/stem-export.md
@@ -106,7 +107,7 @@ nav:
         - Audio clip: documentation/ui/menu/audio-clip.md
         - Instrument clip: 
           - Sound: documentation/ui/menu/instrument-clip/sound.md
-          - Kit affect entire: documentation/ui/menu/instrument-clip/kit-affect-entire.md
+          - Kit master parameters: documentation/ui/menu/instrument-clip/kit-master-parameters.md
           - MIDI: documentation/ui/menu/instrument-clip/midi.md
           - CV: documentation/ui/menu/instrument-clip/cv.md
           - DX7 editor: documentation/ui/menu/instrument-clip/dx7-editor.md

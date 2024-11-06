@@ -1,8 +1,8 @@
-# Kit affect entire menu hierarchy
+# Kit master parameters menu hierarchy
 
-The Kit affect entire menu is accessible from Kit clips when affect entire is enabled by pressing on the `SELECT ENCODER`
+The Kit master parameters menu is accessible from Kit clips when affect entire is enabled by pressing on the `SELECT ENCODER`
 
-The Kit affect entire menu contains the following menu hierarchy:
+The Kit master parameters menu contains the following menu hierarchy:
 
 ## Master (MASTR)
 

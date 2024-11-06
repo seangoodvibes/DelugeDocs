@@ -1,3 +1,0 @@
-# Instrument clip
-
-## Note row
