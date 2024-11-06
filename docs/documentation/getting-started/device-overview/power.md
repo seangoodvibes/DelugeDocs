@@ -13,14 +13,14 @@ The Deluge has an internal battery that can last for over six hours.
 
 ### USB port
 
-You can power and charge the Deluge through the USB Type-B port from any USB power source, such as a computer, USB wall adaptor, or powered USB hub. The Deluge draws up to 500mA from the power source.
+Using the USB port, you can power and charge the Deluge with any USB power source that outputs at least 500mA, such as a computer, USB wall adaptor, or powered USB hub. A USB-B to USB-A is included.
 
 ### DC power socket
 
-You can power and charge the Deluge with any centre-negative 9-12V DC power supply that outputs at least 500mA. The Deluge doesn't include this power supply, but you can buy one from a variety of manufacturers and shops.
+Using the DC power socket, you can power and charge the Deluge with any centre-negative 9-12V DC power supply that outputs at least 500mA. This type of power supply isn't included, but you can buy one from a variety of manufacturers and shops.
 
-  !!! warning
-      The power supply MUST be centre-negative. Using the wrong type of power supply can damage the Deluge.
+!!! warning
+    The power supply MUST be centre-negative. Using the wrong type of power supply can damage the Deluge.
 
 If the power supply provides enough current, you can connect the Deluge in series with other devices. Internal circuitry minimizes most ground loop noise, but some noise is possible.
 
