@@ -1,5 +1,8 @@
 # Arranger
 
+Presents the view where clips can be chained together in series making a longer arrangement
+from the perspective of a track (audio, synth, kit, MIDI, CV).
+
 ## Overview
 
 ## Layout
