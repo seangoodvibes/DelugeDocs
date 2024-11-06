@@ -1,45 +1,58 @@
 # Power
 
-## Power Up
+## Power overview
 
-Connect the USB cable to Deluge and ensure it is connected to a powered USB device or the 9-12V (centre negative) external supply is connected. The power / USB led will illuminate to indicate power status.
+You can power the Deluge through the USB port or DC power socket.
 
-![An image of the Synthstrom Deluge Power Up Options and Battery States](../../../images/power.png "Synthstrom Deluge Power Up Options and Battery States")
+The Deluge has an internal battery that can last for over six hours.
 
-### Powering Up Steps
-
-1. Ensure the device is charged or connected to a USB or external PSU.
-
-1. Ensure the SD card is installed (pins / connectors facing up) using the SD card slot at the front of the unit.
-
-1. Turn the unit on by switching the ON/OFF switch located at the rear of the device to ON.
-
-1. Deluge will power up in ‘clip view’ with a blank song and one blank clip with an assigned synth preset ‘000 Rich Saw Bass’ as shown on the display.
-
-1. Although the sequence can be played, the clips and song are blank at this stage.
-
-1. The synth can be played manually using the right ‘audition / section’ pads where the notes are played chromatically (when SCALE is off) or by default C Major, 7-Note scale. The display will indicate the note as its played.
+!!! info
+    The internal battery is shipped with a low charge. When you use the Deluge for the first time, connect to a power source to charge the battety.
 
 ## Power Sources
 
-### DC Power Socket (9 - 12V)
+### USB port
 
-The Deluge may be powered by any centre-negative 9 - 12V DC power supply which can provide at least 500mA. 
+You can power and charge the Deluge through the USB Type-B port from any USB power source, such as a computer, USB wall adaptor, or powered USB hub. The Deluge draws up to 500mA from the power source.
 
-It can be a shared power supply with other units in a typical daisy chained pedal configuration only if the power supply can provide adequate current. The Deluge contains circuitry to minimise ground loop noise in such a setup, although some noise may still be introduced. 
+### DC power socket
 
-DC and USB power may be connected simultaneously, in which case the Deluge will draw its power from the DC power supply rather than USB. 
+You can power and charge the Deluge with any centre-negative 9-12V DC power supply that outputs at least 500mA. The Deluge doesn't include this power supply, but you can buy one from a variety of manufacturers and shops.
 
-It is important to remember that the 9 - 12V DC power supply must be centre-negative, not centre-positive. Using the incorrect power supply may cause damage to the Deluge.
+  !!! warning
+      The power supply MUST be centre-negative. Using the wrong type of power supply can damage the Deluge.
 
-### USB
+If the power supply provides enough current, you can connect the Deluge in series with other devices. Internal circuitry minimizes most ground loop noise, but some noise is possible.
 
-The Deluge can be powered and charged by its USB type-B connection either from a computer, or from a USB wall adaptor with an appropriate cable. The Deluge may draw up to 500mA from its power source.
+If power is connected to the USB port and DC power socket at the same time, the Deluge draws power from the DC power socket.
 
 ### Battery
 
-The Deluge has an internal Li-ion battery, providing 6+ hours of life. The battery charges any time a power source is connected to the USB or DC power socket, regardless of whether the Deluge is switched on. The battery status LED illuminates yellow for charging, green for charge-complete, or red for low-battery.
+#### Charging the battery
 
-The Deluge’s battery is an “18650” 3.7V Li-ion, and may be replaced by the user. These batteries are readily available from stores everywhere. A “protected” or “unprotected” type may be used. A battery of any mAh rating may be used - higher mAh ratings simply mean longer battery life.
+The internal lithium-ion battery charges any time a power source is connected, whether the Deluge is on or off.
 
-Please note that your Deluge will be shipped with very little charge in the battery. You will need to plug it into a power source to use it and begin charging the battery.
+The battery status LED shows yellow for charging, green for charged, or red for low-battery.
+
+![An diagram of the Synthstrom Deluge battery LED statuses](../../../images/power.png "Synthstrom Deluge Power Up Options and Battery States")
+
+#### Replacing the battery
+
+You can replace the battery yourself. No special tools or skills are needed.
+
+Replacement batteries should be type “18650” 3.7V Li-ion, either “protected” or “unprotected”. The original battery is 3000mAh, but you can use batteries of any capacity.
+
+## Turning on the Deluge
+
+1. Connect a power source to the USB port or DC power socket.
+
+1. Install the SD card with the metal contacts facing up.
+
+1. Switch the power switch on the rear of the device to **On**.
+
+Deluge starts in Clip View with a blank song and one blank clip. The default preset ‘000 Rich Saw Bass’ is shown on the display.
+
+1. Although the sequence can be played, the clips and song are blank.
+
+1. You can play the synth manually using the right two columns of pads. These notes are arranged chromatically in C Major, 7-Note scale from bottom to top. The display shows the notes that you play.
+
