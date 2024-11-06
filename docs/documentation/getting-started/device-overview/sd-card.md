@@ -1,8 +1,16 @@
 # SD card
 
+The Deluge uses SD (or SDHC) card storage to load and record audio samples, store presets and save songs. Typically a 16GB or 32GB is recommended, but any size can be used, formatted to FAT32. The Deluge’s firmware can also be updated via the SD card.
+
+The Deluge is supplied with a formatted SD card loaded with the factory library. Samples are streamed directly from the SD card when in use, making it an integral part of the device. Ensure the card is inserted in Deluge when in use.
+
+## File Structure
+
+The Deluge’s SD card contains the presets for kits and synths in XML format which stores the parameter settings and for kits points to the specific samples used.
+
 ## Slot
 
-- SD card goes in upside down
+- SD card used for presets, streaming samples, firmware updates and storage. Any size, formatted to FAT32. Insert pins-up.
 - Be careful to slide the SD card in straight and not angled, otherwise SD card can fall inside the Deluge
 
 ## Formatting
