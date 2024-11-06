@@ -13,7 +13,7 @@ The Deluge has an internal battery that can last for over six hours.
 
 ### USB port
 
-Using the USB port, you can power and charge the Deluge with any USB power source that outputs at least 500mA, such as a computer, USB wall adaptor, or powered USB hub. A USB-B to USB-A is included.
+Using the USB port, you can power and charge the Deluge with any USB power source that outputs at least 500mA, such as a computer, USB wall adapter, or powered USB hub. A USB-B to USB-A cable is included.
 
 ### DC power socket
 
@@ -49,10 +49,3 @@ Replacement batteries should be type “18650” 3.7V Li-ion, either “protecte
 1. Install the SD card with the metal contacts facing up.
 
 1. Switch the power switch on the rear of the device to **On**.
-
-Deluge starts in Clip View with a blank song and one blank clip. The default preset ‘000 Rich Saw Bass’ is shown on the display.
-
-1. Although the sequence can be played, the clips and song are blank.
-
-1. You can play the synth manually using the right two columns of pads. These notes are arranged chromatically in C Major, 7-Note scale from bottom to top. The display shows the notes that you play.
-
