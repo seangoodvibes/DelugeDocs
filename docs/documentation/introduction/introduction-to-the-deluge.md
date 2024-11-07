@@ -2,7 +2,7 @@
 
 The Synthstrom Deluge from [Synthstrom Audible](https://synthstrom.com/) is a compact, all-in-one music workstation with a synthesizer, sampler, and sequencer in a single, portable device. It’s designed to let musicians sketch out ideas, create complete songs, and perform live, all without a computer. The grid layout makes it easy to explore melodies, rhythms, and patterns. The Deluge is straightforward to use at a basic level, but also offers incredibly deep features, making it a favourite for both beginner and experienced musicians. With a built-in rechargeable battery, the Deluge is a powerful portable studio.
 
-The Deluge includes an onboard synthesizer engine and a sampler. This lets you can either create sounds from scratch or sample and manipulate audio. You can layer parts and experiment with textures ranging from punchy drums to atmospheric pads.
+The Deluge includes an onboard synthesizer engine and a sampler. This means you can create sounds from scratch or sample and manipulate audio. You can layer parts and experiment with textures ranging from punchy drums to atmospheric pads.
 
 Its sequencer is flexible, letting you create complex song arrangements or dynamic jam sessions using the internal synth engine or external gear. You can experiment with Euclidian sequences, conditional note triggers, polyrhythms, and unusual time signatures. The Deluge lets you launch patterns groups, mute sections, and adjust parameters on the fly, so it’s great for live performances.
 
