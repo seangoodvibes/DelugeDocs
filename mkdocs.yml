@@ -195,7 +195,6 @@ nav:
     - Recording: 
       - Live looping: documentation/recording/live-looping.md
       - Audio sampling: documentation/recording/audio-sampling.md
-  - Quick reference: quick-reference/quick-reference.md
   - External resources:
     - external-resources/external-resources.md
     - Quick links:
