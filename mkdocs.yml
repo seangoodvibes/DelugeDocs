@@ -142,7 +142,6 @@ nav:
               - Kit clip lazy chopping: documentation/ui/views/clip/instrument-clip/kit-clip/kit-clip-lazy-chopping.md
             - Note editor: documentation/ui/views/clip/instrument-clip/note-editor.md
             - Note row editor: documentation/ui/views/clip/instrument-clip/note-row-editor.md
-            - Velocity editor: documentation/ui/views/clip/instrument-clip/velocity-editor.md
         - Automation: 
           - Parameter overview: documentation/ui/views/automation/parameter-overview.md
           - Parameter editor: documentation/ui/views/automation/parameter-editor.md
@@ -150,7 +149,7 @@ nav:
         - Performance: 
           - Performance: documentation/ui/views/performance/performance.md
           - Value editor: documentation/ui/views/performance/value-editor.md
-          - Layout editor: documentation/ui/views/performance/layout-editor.md
+          - Param editor: documentation/ui/views/performance/param-editor.md
       - Rename: documentation/ui/rename.md
     - Sound engine:
       - Specs: documentation/sound-engine/specs.md
