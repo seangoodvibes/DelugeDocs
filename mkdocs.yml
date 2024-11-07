@@ -134,11 +134,12 @@ nav:
             - Instrument clip: documentation/ui/views/clip/instrument-clip/instrument-clip.md
             - Melodic instrument clip:
               - Melodic instrument clip: documentation/ui/views/clip/instrument-clip/melodic-instrument-clip/melodic-instrument-clip.md
+              - Melodic instrument clip keyboard: documentation/ui/views/clip/instrument-clip/melodic-instrument-clip/melodic-instrument-clip-keyboard.md
             - Kit clip:
               - Kit clip: documentation/ui/views/clip/instrument-clip/kit-clip/kit-clip.md
+              - Kit clip keyboard: documentation/ui/views/clip/instrument-clip/kit-clip/kit-clip-keyboard.md
               - Kit clip waveform editor: documentation/ui/views/clip/instrument-clip/kit-clip/kit-clip-waveform-editor.md
               - Kit clip lazy chopping: documentation/ui/views/clip/instrument-clip/kit-clip/kit-clip-lazy-chopping.md
-            - Keyboard: documentation/ui/views/clip/instrument-clip/keyboard.md
             - Note editor: documentation/ui/views/clip/instrument-clip/note-editor.md
             - Note row editor: documentation/ui/views/clip/instrument-clip/note-row-editor.md
             - Velocity editor: documentation/ui/views/clip/instrument-clip/velocity-editor.md
