@@ -39,10 +39,10 @@ Output
 
 ## Modes
 
-Modes provide different ways of working with tracks and clips. They are mutually exclusive, meaning only one mode can be used at a given time. 
+Modes provide different ways of working with and playing tracks and clips. They are mutually exclusive, meaning only one mode can be used at a given time. Each mode is associated with a View which is the user interface for configuring the mode. 
 
 Arranger Mode
-: Allows you to arrange a song chronologically from beginning to end. Each track is represented by a single row on a timeline. The clips for a given track are placed in sequence from left to right.
+: Allows you to arrange a song chronologically from beginning to end using Arranger View. Each track is represented by a single row on a timeline. The clips for a given track are placed in sequence from left to right.
 
 Song Mode
 : Allows you to work with tracks and clips using two main views: Rows View and Grid View.
@@ -51,8 +51,9 @@ Song Mode
 
 #### Names
 
-- Rows View
-- Grid View
+- Arranger View
+- Song Rows View
+- Song Grid View
 - Audio Clip View
 - Melodic Instrument Clip View
 - Kit Instrument Clip View
