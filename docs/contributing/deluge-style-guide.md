@@ -11,19 +11,22 @@ Project file
 : A file on the SD card that stores all of the information about a project. Use this only when referring to specific technical concepts to do with the file system or stored data. For general usage, use "project", such as saving or deleting a project.
 
 Track
-: A single instrument or layer in a project. Each track is either an audio track or an instrument track (of type synth, kit, MIDI, or CV). Tracks contain one or more clips. NOTE: Don't use "track" to mean song or project, such as "track tempo". Use "project tempo".
+: A single instrument or layer in a project. Each track is either an audio track or an instrument track. An instrument track is either a kit instrument track or a melodic instrument track (synth, MIDI, CV). Tracks contain one or more clips. NOTE: Don't use "track" to mean song or project, such as "track tempo". Use "project tempo".
 
 Track preset file
-: A preset file can be saved for synth, kit and MIDI instrument tracks. A preset file contains track information configured in a clip (such as base parameter values, synth engine settings, kit drum information), but not all track information. For example, note sequences and parameter automation sequences are not saved in the track preset file (that information is only saved as part of the project file). 
+: A preset file can be saved for synth, kit and MIDI instrument tracks. A preset file contains track information configured in a clip (such as base parameter values, synth engine settings, kit drum information, samples used), but not all track information. For example, note sequences and parameter automation sequences are not saved in the track preset file (that information is only saved as part of the project file). 
 
 Clip
 : A unique instance of a track that stores information required to generate an output (for example, samples, note sequences, parameter automation sequences, and other track settings). Each clip is either an audio clip or an instrument clip. Each instrument clip is either a melodic instrument clip (synth, MIDI, CV) or a kit instrument clip. Each track can have multiple clips.
 
-Drum
-: A unique instance of a kit instrument clip row that is associated with a sequence to generate an output. A drum is either an audio drum (synthesizer or sample) or non-audio drum (MIDI, Gate). 
-
 Sample
 : An audio file that can be played back as part of an audio clip or sequenced as part of an instrument clip.
+
+Instrument Clip Row
+: A unique sequencer instance that is associated with a specific drum or note pitch. The instrument clip row contains information on the parameters of the sequencer that determine when and how a note event is to be triggered (for example, note positions, note velocity, note probability, note iterance, note fill, note expression).
+
+Drum
+: A unique instance of a kit instrument clip row that is associated with a sequence to generate an output. A drum is either an audio drum (synthesizer or sample) or non-audio drum (MIDI, Gate). 
 
 Note
 : The name of an event that can be programmed and played back in an instrument clip sequence in order to generate audio (for example, a synthesized sound or sample) or non-audio (for example, MIDI, CV, Gate) output.
