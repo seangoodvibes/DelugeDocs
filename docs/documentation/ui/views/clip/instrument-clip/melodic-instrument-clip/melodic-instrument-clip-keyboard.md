@@ -44,7 +44,31 @@ To change the layout, Hold [KEYBOARD] + turn (SELECT).
 
 ### Isomorphic
 
-...insert description of isomorphic keyboard layout...
+Keyboard layout which is reflective of the scale and is mapped to the 16 x 8 pad grid.
+
+This means that the grid has defined note and chord placements rather than traditional piano style sequencing layout. The Deluge column steps are one semitone and the rows five semitones (a perfect fourth) apart. In layout terms, it is therefore more akin to a bass guitar fretboard than it is to a piano keyboard. From a grid playability perspective this makes perfect sense. Pressing a note on the grid will also highlight the equivalent notes, up and down an octave, on the grid.
+
+![An image of the Synthstrom Deluge Isomorphic Keyboard Layout](../../../../../../images/isomorphic-keyboard.png "Synthstrom Deluge Isomorphic Keyboard Layout")
+
+Steps up the rows in five semitone (perfect fourth) intervals and the columns steps in one semitone steps.
+
+Note Offset:
+
+- The row step / note offset is adjustable and is saved with the song.
+- Press [SHIFT] + turn (SCROLL◄►) to adjust.
+- Default setting is 5 but can be set to 12 for an isomorphic keyboard.
+
+These octaves will follow a consistent pattern shape of the notes between the octaves. Chords played on a piano are shaped uniquely across the scale (for example 12 chord shapes in a minor chord for each root note).
+
+In the isomorphic layout, chords always follow the same shape.
+
+Example of Isomorphic Chord Shapes:
+
+![An image of the Synthstrom Deluge Isomorphic Keyboard Layout Chord Shapes](../../../../../../images/isomorphic-keyboard-chord-shapes.png "Synthstrom Deluge Isomorphic Keyboard Layout Chord Shapes")
+
+More isomorphic chord examples are shown in the community quick reference guide in section 15 of this manual. The row step / note offset can also be adjusted from the default ‘5’ setting.
+
+**to do**: include the additional chord shape examples
 
 ### In-Key
 
