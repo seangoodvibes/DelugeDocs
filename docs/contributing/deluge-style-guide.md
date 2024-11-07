@@ -2,10 +2,10 @@
 
 This Deluge-specific style guide defined how to refer to song parts, views, controls, and display elements.
 
-## Parts of a song
+## Parts of a project
 
-Song
-: A discrete creative project, generally aligned with one (but sometimes several) project files on the Deluge.
+Project
+: A discrete creative endeavour, generally aligned with one (but sometimes several) project files on the Deluge. Note: Avoid using the word "song" unless referring specifically to Song Mode. "Project" is a broader term that captures sketches, 8-bar loops, jams, live recording templates, experiments, and more in addition to the idea of a "song" with a beginning, middle, and end.
 
 Project file
 : A file on the SD card that stores all of the information about a song. Use this only when referring to specific technical concepts to do with the file system or stored data. For general usage, use "song", such as saving or deleting a song.
@@ -19,13 +19,22 @@ Clip
 Parameter
 : The name of an adjustable value, such as LPF Frequency, Reverb Room Size, or OSC1 Level, that can be manipulated and saved as part of a song. Some parameters can be modulated and automated. Format the name of the parameter like `LPF Frequency` and use the abbreviated name. Refer to the Parameter Abbreviations Table. 
 
+## Modes
+
+Modes provide different ways of working with tracks and clips. They are mutually exclusive, meaning only one mode can be used at a given time. 
+
+Arranger Mode
+: Allows you to arrange a song chronologically from beginning to end. Each track is represented by a single row on a timeline. The clips for a given track are placed in sequence from left to right.
+
+Song Mode
+: Allows you to work with tracks and clips using two main views. Rows View and Grid View.
+
 ## Views
 
 #### Names
 
-- Arranger View
-- Song Rows View
-- Song Grid View
+- Rows View
+- Grid View
 - Keyboard View
 - Performance View
 - Automation View
