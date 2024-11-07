@@ -17,7 +17,7 @@ Track preset file
 : A preset file can be saved for synth, kit and MIDI instrument tracks. A preset file contains track information configured in a clip (such as base parameter values, synth engine settings, kit drum information, samples used), but not all track information. For example, note sequences and parameter automation sequences are not saved in the track preset file (that information is only saved as part of the project file). 
 
 Clip
-: A unique instance of a track that stores information required to generate an output (for example, samples, note sequences, parameter automation sequences, and other track settings). Each clip is either an audio clip or an instrument clip. Each instrument clip is either a melodic instrument clip (synth, MIDI, CV) or a kit instrument clip. Each track can have multiple clips.
+: A unique instance of a track that stores information required to generate an output (for example, samples, note sequences, parameter automation sequences, and other track settings). Each clip is either an audio clip or an instrument clip. Each instrument clip is either a melodic instrument clip (synth, MIDI, CV) or a kit instrument clip.
 
 Sample
 : An audio file that can be played back as part of an audio clip or sequenced as part of an instrument clip.
