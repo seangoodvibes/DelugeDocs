@@ -17,7 +17,7 @@ Clip
 : A unique instance of a track that stores information required to generate an output (for example, samples, note sequences, parameter automation sequences, and other track settings). Each clip is either an audio clip or an instrument clip. Each track can have multiple clips.
 
 Sample
-: An audio file that can be played back as part of an audio track or sequenced as part of an instrument clip.
+: An audio file that can be played back as part of an audio clip or sequenced as part of an instrument clip.
 
 Note
 : The name of an event that can be programmed and played back in an instrument clip sequence in order to generate audio (for example, a synthesized sound or sample) or non-audio (for example, MIDI, CV, Gate) output.
