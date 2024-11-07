@@ -8,7 +8,7 @@ Project
 : A discrete creative endeavour, generally aligned with one (but sometimes several) project files on the Deluge. Note: Avoid using the word "song" unless referring specifically to Song Mode. "Project" is a broader term that captures sketches, 8-bar loops, jams, live recording templates, experiments, and more in addition to the idea of a "song" with a beginning, middle, and end.
 
 Project file
-: A file on the SD card that stores all of the information about a song. Use this only when referring to specific technical concepts to do with the file system or stored data. For general usage, use "song", such as saving or deleting a song.
+: A file on the SD card that stores all of the information about a song. Use this only when referring to specific technical concepts to do with the file system or stored data. For general usage, use "project", such as saving or deleting a project.
 
 Track
 : A single instrument or layer in a song. Each track is one of the following types: synth, kit, MIDI, CV, or audio. Tracks contain one or more clips. NOTE: Don't use "track" to mean song or project, such as "track tempo". Use "song tempo".
