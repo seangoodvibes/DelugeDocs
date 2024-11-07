@@ -23,7 +23,7 @@ Sample
 : An audio file that can be played back as part of an audio clip or sequenced as part of an instrument clip.
 
 Instrument Clip Row
-: A unique sequencer instance that is associated with a specific drum or note pitch. The instrument clip row contains information on the notes programmed into the sequencer. The instrument clip row also contains information on sequence length and the direction that the sequence should playback.
+: A unique sequencer instance that is associated with a specific drum (for kit instrument clips) or note pitch (for melodic instrument clips). The instrument clip row contains information on the notes programmed into the sequencer. The instrument clip row also contains information on sequence length and the direction that the sequence should playback.
 
 Drum
 : A unique instance of a kit instrument clip row that is associated with a sequence to generate an output. A drum is either an audio drum (synthesizer or sample) or non-audio drum (MIDI, Gate). 
