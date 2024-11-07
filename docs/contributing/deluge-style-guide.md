@@ -14,7 +14,7 @@ Track
 : A single instrument or layer in a project. Each track is either an audio track or an instrument track (of type synth, kit, MIDI, or CV). Tracks contain one or more clips. NOTE: Don't use "track" to mean song or project, such as "track tempo". Use "project tempo".
 
 Clip
-: A unique instance of a track that stores information required to generate an output (for example, samples, note sequences, parameter automation sequences, and other track settings). Each clip is either an audio clip or an instrument clip. Each track can have multiple clips.
+: A unique instance of a track that stores information required to generate an output (for example, samples, note sequences, parameter automation sequences, and other track settings). Each clip is either an audio clip or an instrument clip. Each instrument clip is either a melodic instrument clip (synth, MIDI, CV) or a kit instrument clip. Each track can have multiple clips.
 
 Sample
 : An audio file that can be played back as part of an audio clip or sequenced as part of an instrument clip.
@@ -45,7 +45,8 @@ Song Mode
 - Rows View
 - Grid View
 - Audio Clip View
-- Instrument Clip View
+- Melodic Instrument Clip View
+- Kit Instrument Clip View
 - Keyboard View
 - Automation View
 - Performance View
