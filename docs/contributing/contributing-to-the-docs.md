@@ -42,7 +42,7 @@ If you want to make more substantial contributions, you can clone the repository
 
 1. Install [Git](https://git-scm.com/downloads).
 
-1. Install Python, Pip, and MkDocs by following the instructions at https://www.mkdocs.org/user-guide/installation/.
+1. Install Python, Pip, and MkDocs by following the [MkDocs Installation Guide](https://www.mkdocs.org/user-guide/installation/).
 
 1. Install Material for MkDocs by following the instructions at [Getting started](https://squidfunk.github.io/mkdocs-material/getting-started/).
 
