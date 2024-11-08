@@ -48,7 +48,7 @@ Arranger Mode
 : Allows you to arrange a song chronologically from beginning to end using Arranger View. Each track is represented by a single row on a timeline. The clips for a given track are placed in sequence from left to right.
 
 Song Mode
-: Allows you to work with tracks and clips using two main views: Rows View and Grid View.
+: Allows you to work with tracks and clips using two main Song View layouts: Rows and Grid.
 
 ## Views
 
