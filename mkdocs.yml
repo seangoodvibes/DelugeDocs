@@ -45,7 +45,10 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-# Navigation
+not_in_nav: |
+  /quick-reference/quick-reference.md
+
+# Page tree
 nav:
   - Welcome: index.md
   - Documentation:
@@ -67,6 +70,7 @@ nav:
           - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
           - Performance: documentation/getting-started/device-overview/performance.md
     - Project:
+      - Project: documentation/project/project.md
       - Settings: documentation/project/settings.md
       - Master Parameters: documentation/project/master-parameters.md
       - Track:
@@ -79,15 +83,15 @@ nav:
               - Synth: documentation/project/track/types/melodic-instrument/types/synth-melodic-instrument-track.md
               - MIDI: documentation/project/track/types/melodic-instrument/types/midi-melodic-instrument-track.md
               - CV: documentation/project/track/types/melodic-instrument/types/cv-melodic-instrument-track.md
-          - Kit: 
-            - Kit: documentation/project/track/types/kit/kit-track.md
-            - Master Parameters: documentation/project/track/types/kit/kit-track-master-parameters.md
+          - Kit instrument: 
+            - Kit instrument: documentation/project/track/types/kit-instrument/kit-instrument-track.md
+            - Master Parameters: documentation/project/track/types/kit-instrument/kit-instrument-track-master-parameters.md
             - Drum:
-              - Drum: documentation/project/track/types/kit/drum/kit-track-drum.md
+              - Drum: documentation/project/track/types/kit-instrument/drum/kit-instrument-track-drum.md
               - Types:
-                - Sound: documentation/project/track/types/kit/drum/types/kit-track-sound-drum.md
-                - MIDI: documentation/project/track/types/kit/drum/types/kit-track-midi-drum.md
-                - Gate: documentation/project/track/types/kit/drum/types/kit-track-gate-drum.md
+                - Sound: documentation/project/track/types/kit-instrument/drum/types/kit-instrument-track-sound-drum.md
+                - MIDI: documentation/project/track/types/kit-instrument/drum/types/kit-instrument-track-midi-drum.md
+                - Gate: documentation/project/track/types/kit-instrument/drum/types/kit-instrument-track-gate-drum.md
       - Clip: 
         - Clip: documentation/project/clip/clip.md
         - Types:
