@@ -85,9 +85,9 @@ The mode where clips are organized in one of the two Session View layouts:
 - When referring to elements on the OLED display or locations of elements in menus, use **bold** and Title Case.
 - When referring to elements on the 7SEG display, use `code` and match the capitalization on the display.
 
-    !!! example "Examples"
-        - Open Settings and go to **Defaults** > **Automation**, and enable **Nudge Note**.
-        - Open Settings and go to `dEFA` > `AUTo`, and enable `nUdG`.
+!!! example "Examples"
+    - Open Settings and go to **Defaults** > **Automation**, and enable **Nudge Note**.
+    - Open Settings and go to `dEFA` > `AUTo`, and enable `nUdG`.
 
 ## Buttons and controls
 
