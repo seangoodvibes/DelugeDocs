@@ -1,6 +1,6 @@
 # Display
 
-There are two dynamic displays for the Deluge. The original Deluge included a seven-segment LED display, and since 2023, the Deluge ships with a white OLED display.
+There are two dynamic displays for the Deluge. The original Deluge included a seven-segment LED display, but since 2023, the Deluge has shipped with an OLED display.
 
 The display doesn't change what your Deluge can do, but it does affect the way you interact with menus and display information. This documentation supports both displays.
 
@@ -8,7 +8,7 @@ The display doesn't change what your Deluge can do, but it does affect the way y
 
 Often shortened to "7seg", this display uses red LEDs to show up to four characters at once, as well as a dot indicator (`.`). Each character has seven segments, similar to an early digital alarm clock.
 
-Display items often uses names that are abbreviated to four characters.
+Display items are often abbreviated to four characters.
 
 On the 7seg display, it's not possible to represent every letter normally. Learning to read the 7seg version of the English alphabet can take some practice, but you can get used to it quickly.
 
