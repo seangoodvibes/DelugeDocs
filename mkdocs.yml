@@ -203,7 +203,10 @@ nav:
     - external-resources/external-resources.md
     - Quick links:
       - Synthstrom:
-        - Forums: https://forums.synthstrom.com
+        - Communities:
+          - Forums: https://forums.synthstrom.com
+          - Facebook: https://www.facebook.com/share/g/15F56mCVr7/
+          - Discord: https://discord.gg/KsUE8NXZ
         - FAQ: https://synthstrom.com/frequently-asked-questions/
         - 4.1 Manual: https://synthstrom-audible-deluge.s3.us-east-2.amazonaws.com/Deluge-Guidebook-4p1-OLED.pdf
         - Patreon: https://www.patreon.com/Synthstrom
@@ -217,10 +220,10 @@ nav:
       - Applications:
         - Display emulator: https://bfredl.github.io/delugeclient/app.html
         - Downrush:
-          - Downrush File browser: https://www.fentonia.com/deluge/vuefinder/
-          - Downrush WAV editor: https://www.fentonia.com/deluge/waverly/
-          - Downrush Project editor: https://www.fentonia.com/deluge/viewScore/
-          - Downrush MIDI file converter: https://www.fentonia.com/catnip/midian/index.html
+          - File browser: https://www.fentonia.com/deluge/vuefinder/
+          - WAV editor: https://www.fentonia.com/deluge/waverly/
+          - Project editor: https://www.fentonia.com/deluge/viewScore/
+          - MIDI file converter: https://www.fentonia.com/catnip/midian/index.html
         - Shortcuts companion: https://fheft.github.io/deluge-companion/
         - Kit Generator: https://deluge-kit-generator.vercel.app
         - Commander: https://neuma.studio/deluge-commander/
