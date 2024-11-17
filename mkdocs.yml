@@ -202,19 +202,32 @@ nav:
   - External resources:
     - external-resources/external-resources.md
     - Quick links:
-      - Community firmware: https://synthstromaudible.github.io/DelugeFirmware/
-      - Synthstrom FAQ: https://synthstrom.com/frequently-asked-questions/
-      - Display emulator: https://bfredl.github.io/delugeclient/app.html
-      - Downrush File browser: https://www.fentonia.com/deluge/vuefinder/
-      - Downrush WAV editor: https://www.fentonia.com/deluge/waverly/
-      - Downrush Project editor: https://www.fentonia.com/deluge/viewScore/
-      - Shortcuts companion: https://fheft.github.io/deluge-companion/
-      - Kit Generator: https://deluge-kit-generator.vercel.app
-      - Commander: https://neuma.studio/deluge-commander/
-      - Delugeator: https://forums.synthstrom.com/discussion/3590/delugeator-1-0-a-win-10-kit-editor-for-deluge-released
-      - Delleague: https://forums.synthstrom.com/discussion/4247/deluge-xml-fixer-and-with-set-volumes/p1?new=1
-      - Kit Creator: https://synth.party/deluge-kit/
-      - CC Controller: https://synth.party/cc/
+      - Synthstrom:
+        - Forums: https://forums.synthstrom.com
+        - FAQ: https://synthstrom.com/frequently-asked-questions/
+        - 4.1 Manual: https://synthstrom-audible-deluge.s3.us-east-2.amazonaws.com/Deluge-Guidebook-4p1-OLED.pdf
+        - Patreon: https://www.patreon.com/Synthstrom
+      - Community firmware:
+        - Release website: https://synthstromaudible.github.io/DelugeFirmware/
+        - Github repo: https://github.com/SynthstromAudible/DelugeFirmware
+        - Documentation:
+          - DRAFT 1.0 Manual: https://drive.google.com/file/d/1UFRS8m3_o9uL3weUHJT_MHw27DGV9EM1/view
+          - Features: https://github.com/SynthstromAudible/DelugeFirmware/tree/community/docs
+          - Changelog: https://github.com/SynthstromAudible/DelugeFirmware/blob/community/CHANGELOG.md
+      - Applications:
+        - Display emulator: https://bfredl.github.io/delugeclient/app.html
+        - Downrush:
+          - Downrush File browser: https://www.fentonia.com/deluge/vuefinder/
+          - Downrush WAV editor: https://www.fentonia.com/deluge/waverly/
+          - Downrush Project editor: https://www.fentonia.com/deluge/viewScore/
+          - Downrush MIDI file converter: https://www.fentonia.com/catnip/midian/index.html
+        - Shortcuts companion: https://fheft.github.io/deluge-companion/
+        - Kit Generator: https://deluge-kit-generator.vercel.app
+        - Commander: https://neuma.studio/deluge-commander/
+        - Delugeator: https://forums.synthstrom.com/discussion/3590/delugeator-1-0-a-win-10-kit-editor-for-deluge-released
+        - Delleague: https://forums.synthstrom.com/discussion/4247/deluge-xml-fixer-and-with-set-volumes/p1?new=1
+        - Kit Creator: https://synth.party/deluge-kit/
+        - CC Controller: https://synth.party/cc/
   - Contributing:
     - Contributing to the documentation: contributing/contributing-to-the-docs.md
     - Language style guide: contributing/language-style-guide.md
