@@ -1,24 +1,26 @@
 # Concepts
 
-## Parts of a project
+## Parts of a song
 
-Project
+Song
 : A discrete creative endeavour, generally aligned with one (but sometimes several) project files on the Deluge. Note: Avoid using the word "song" unless referring specifically to Song Mode. "Project" is a broader term that captures sketches, 8-bar loops, jams, live recording templates, experiments, and more in addition to the idea of a "song" with a beginning, middle, and end.
 
-Project file
-: A file on the SD card that stores all of the information about a project. Use this only when referring to specific technical concepts to do with the file system or stored data. For general usage, use "project", such as saving or deleting a project.
+A discrete creative endeavour, such as an arrangement, sketch, 8-bar loop, jam, live recording template, or musical experiment. A song is always associated with at least one song file on the Deluge. Note: Don't use the word "project" or "track" for this meaning.
+
+Song file
+: A file on the SD card that stores all of the information about a song.
 
 Track
-: A single instrument or layer in a project. Each track is either an audio track or an instrument track. An instrument track is either a kit instrument track or a melodic instrument track (synth, MIDI, CV). Tracks contain one or more clips. NOTE: Don't use "track" to mean song or project, such as "track tempo". Use "project tempo".
+: A single instrument or layer in a song. Each track is either an audio track or an instrument track. An instrument track is either a kit instrument track or a melodic instrument track (synth, MIDI, CV). Tracks contain one or more clips.
 
 Track preset file
-: A preset file can be saved for synth, kit and MIDI instrument tracks. A preset file contains track information configured in a clip (such as base parameter values, synth engine settings, kit drum information, samples used), but not all track information. For example, note sequences and parameter automation sequences are not saved in the track preset file (that information is only saved as part of the project file). 
+: A preset file can be saved for synth, kit and MIDI instrument tracks. A preset file contains track information configured in a clip (such as base parameter values, synth engine settings, kit drum information, samples used), but not all track information. For example, note sequences and parameter automation sequences are not saved in the track preset file (that information is only saved as part of the song file). 
 
 Clip
 : A unique instance of a track that stores information required to generate an output (for example, samples, note sequences, parameter automation sequences, and other track settings). Each clip is either an audio clip or an instrument clip. Each instrument clip is either a melodic instrument clip (synth, MIDI, CV) or a kit instrument clip.
 
 Section
-: In the song playback mode, a section groups clips from separate tracks together so that they can be launched together. A clip can only belong to one section. Sections have settings that dictate the number of times a section should playback before stopping or moving to the next section.
+: In session mode, a section groups clips from separate tracks together so that they can be launched together. A clip can only belong to one section. Sections have settings that dictate the number of times a section should playback before stopping or moving to the next section.
 
 Sample
 : An audio file that can be played back as part of an audio clip or sequenced as part of an instrument clip.
@@ -40,22 +42,21 @@ Output
 
 ## Modes
 
-Modes provide different ways of working with tracks and clips and contain the configuration settings for which tracks and clips are playing at any given time. They are mutually exclusive, meaning only one mode can be used at a given time. Each mode is associated with a View which is the user interface for configuring the mode. 
+Modes provide different ways of working with tracks and clips and contain the configuration settings for which tracks and clips are playing at any given time. They are mutually exclusive, meaning only one mode can be played at a time. Each mode is associated with a View which is the user interface for configuring the mode. 
 
 Arranger Mode
 : Allows you to arrange a song chronologically from beginning to end using Arranger View. Each track is represented by a single row on a timeline. The clips for a given track are placed in sequence from left to right.
 
-Song Mode
-: Allows you to work with tracks and clips using two main Song View layouts: Rows and Grid.
+Session Mode
+: Allows you to work with tracks and clips using two main Session View layouts: Rows and Grid.
 
 ## Views
 
 Arranger View
 : The user interface for interacting with Arranger Mode
 
-Song View
-: The user interface for interacting with Song Mode 
-: Includes two different layouts: Rows and Grid
+Session Rows View and Session Grid View
+: The user interfaces for interacting with Session Mode 
 
 Audio Clip View
 : The user interface for interacting with Audio Clips
