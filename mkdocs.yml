@@ -74,7 +74,8 @@ nav:
       - Settings: documentation/song/settings.md
       - Master Parameters: documentation/song/master-parameters.md
       - Modes:
-        - Modes: documentation/song/modes/modes.md
+        - Session: documentation/song/modes/session.md
+        - Arranger: documentation/song/modes/arranger.md
       - Track:
         - Track: documentation/song/track/track.md
         - Types: 
@@ -126,11 +127,11 @@ nav:
       - Alphanumeric Keyboard: documentation/ui/alphanumeric-keyboard.md
       - Views:
         - Arranger: documentation/ui/views/arranger.md
-        - Song:
-          - Song: documentation/ui/views/song/song.md
-          - Modes: 
-            - Grid: documentation/ui/views/song/modes/grid.md
-            - Row: documentation/ui/views/song/modes/row.md
+        - Session:
+          - Session: documentation/ui/views/session/session.md
+          - Layouts: 
+            - Grid: documentation/ui/views/session/layouts/grid.md
+            - Row: documentation/ui/views/session/layouts/row.md
         - Clip:
           - Audio clip: 
             - Audio clip: documentation/ui/views/clip/audio-clip/audio-clip.md
