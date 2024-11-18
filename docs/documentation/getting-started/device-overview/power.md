@@ -43,7 +43,7 @@ The internal lithium-ion battery charges any time a power source is connected, w
 The battery status LED shows yellow for charging, green for charged, or red for low-battery.
 
 ![An diagram of the Synthstrom Deluge battery LED statuses](../../../images/power.png "Synthstrom Deluge Power Up Options and Battery States")
-* Diagram credit: [SynthDawg](https://www.synthdawg.com)
+> Diagram credit: [SynthDawg](https://www.synthdawg.com)
 
 #### Replacing the battery
 
