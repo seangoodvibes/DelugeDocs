@@ -3,7 +3,7 @@
 ## Parts of a song
 
 Song
-: A discrete creative endeavour, such as an arrangement, sketch, 8-bar loop, jam, live recording template, or musical experiment. A song is always associated with at least one song file on the Deluge. Note: Don't use the word "project" or "track" for this meaning.
+: A discrete creative endeavour, such as an arrangement, sketch, 8-bar loop, jam, live recording template, or musical experiment. A song is always associated with at least one song file on the Deluge.
 
 Song file
 : A file on the SD card that stores all of the information about a song.
