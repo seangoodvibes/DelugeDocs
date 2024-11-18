@@ -73,6 +73,8 @@ nav:
       - Song: documentation/song/song.md
       - Settings: documentation/song/settings.md
       - Master Parameters: documentation/song/master-parameters.md
+      - Modes:
+        - Modes: documentation/song/modes/modes.md
       - Track:
         - Track: documentation/song/track/track.md
         - Types: 
@@ -97,8 +99,7 @@ nav:
         - Types:
           - Audio Clip: documentation/song/clip/types/audio-clip.md
           - Instrument Clip: documentation/song/clip/types/instrument-clip.md
-      - Section: documentation/song/section.md
-      - Playback modes: documentation/song/playback-modes.md  
+        - Section: documentation/song/clip/section.md
       - Stem export: documentation/song/stem-export.md
     - User interface:
       - User interface: documentation/ui/user-interface.md
