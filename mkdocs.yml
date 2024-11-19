@@ -74,8 +74,8 @@ nav:
       - Settings: documentation/song/settings.md
       - Master Parameters: documentation/song/master-parameters.md
       - Modes:
-        - Session: documentation/song/modes/session.md
-        - Arranger: documentation/song/modes/arranger.md
+        - Session: documentation/song/modes/session-mode.md
+        - Arranger: documentation/song/modes/arranger-mode.md
       - Track:
         - Track: documentation/song/track/track.md
         - Types: 
@@ -126,10 +126,10 @@ nav:
         - MIDI device definition file: documentation/ui/file-browser/midi-device-definition-file.md
       - Alphanumeric Keyboard: documentation/ui/alphanumeric-keyboard.md
       - Views:
-        - Arranger: documentation/ui/views/arranger.md
+        - Arranger: documentation/ui/views/arranger-view.md
         - Session:
-          - Grid: documentation/ui/views/session/grid.md
-          - Row: documentation/ui/views/session/row.md
+          - Grid: documentation/ui/views/session/session-grid-view.md
+          - Row: documentation/ui/views/session/session-row-view.md
         - Clip:
           - Audio clip: 
             - Audio clip: documentation/ui/views/clip/audio-clip/audio-clip.md

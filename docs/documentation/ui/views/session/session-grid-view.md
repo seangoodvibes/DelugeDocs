@@ -1,4 +1,4 @@
-# Grid
+# Session Grid View
 
 ## Layout
 
