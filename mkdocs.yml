@@ -128,10 +128,8 @@ nav:
       - Views:
         - Arranger: documentation/ui/views/arranger.md
         - Session:
-          - Session: documentation/ui/views/session/session.md
-          - Layouts: 
-            - Grid: documentation/ui/views/session/layouts/grid.md
-            - Row: documentation/ui/views/session/layouts/row.md
+          - Grid: documentation/ui/views/session/grid.md
+          - Row: documentation/ui/views/session/row.md
         - Clip:
           - Audio clip: 
             - Audio clip: documentation/ui/views/clip/audio-clip/audio-clip.md
