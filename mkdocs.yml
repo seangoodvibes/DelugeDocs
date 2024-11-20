@@ -74,8 +74,8 @@ nav:
       - Settings: documentation/song/settings.md
       - Master Parameters: documentation/song/master-parameters.md
       - Modes:
-        - Session: documentation/song/modes/session-mode.md
-        - Arranger: documentation/song/modes/arranger-mode.md
+        - Session: documentation/song/song-modes/session-mode.md
+        - Arranger: documentation/song/song-modes/arranger-mode.md
       - Track:
         - Track: documentation/song/track/track.md
         - Types: 
@@ -100,7 +100,7 @@ nav:
         - Types:
           - Audio Clip: documentation/song/clip/types/audio-clip.md
           - Instrument Clip: documentation/song/clip/types/instrument-clip.md
-        - Section: documentation/song/clip/section.md
+      - Section: documentation/song/section.md
       - Stem export: documentation/song/stem-export.md
     - User interface:
       - User interface: documentation/ui/user-interface.md

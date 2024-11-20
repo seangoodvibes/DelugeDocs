@@ -11,4 +11,4 @@ An example high level workflow for working with SONGS on Deluge:
 
 ## Modes
 
-There are two modes you can use to create and play a song on the Deluge: [Session](./modes/session-mode.md) and [Arranger](./modes/arranger-mode.md)
+There are two modes you can use to create and play a song on the Deluge: [Session](./song-modes/session-mode.md) and [Arranger](./song-modes/arranger-mode.md)

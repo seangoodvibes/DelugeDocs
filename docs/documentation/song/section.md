@@ -1,5 +1,7 @@
 # Section
 
+Song sections group together clips so that they can be controlled, launched, armed etc together making it easy to play arrangements and structure live sets. Sections can be structured into a chained sequence automatically playing each. Sections are colour coded for clarity and controlled by the [SECTION] pad column in session mode. 
+
 A section is a Song playback mode concept.
 
 A section may be comprised of one or more tracks. Within each track, each clip can belong to one section.
