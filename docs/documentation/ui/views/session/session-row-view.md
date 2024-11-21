@@ -9,7 +9,9 @@ Deluge will only play one clip per track at one time in row view. So for example
 
 ## Playing a Song
 
-1. Press [SONG] to switch to session row view. The button illuminates blue. If this is a new song and the first this time the song mode is selected, the song may be empty or only show the first clip compressed to the first row.
+1. Press [SONG] to switch to session mode. The button illuminates blue. If this is a new song and the first this time the session mode is selected, the selected view will only show the first clip compressed to the first row.
+
+1. Hold [SONG] + turn (SELECT) to change between song row and grid views. Select row view.
 
 1. Press [PLAY]. Song will playback and the white song position cursor will travel left to right.
 
@@ -127,3 +129,55 @@ Press [SHIFT] + [LAUNCH] pad to immediately play the clip row in session row vie
 1. To solo immediately without arming, press & hold [SHIFT] + (SCROLL◄►) + press [LAUNCH] pad.
 
 ## Sections
+
+Song sections group together clips so that they can, for example, be controlled, launched, or armed together, making it easy to play arrangements and structure live sets. 
+
+Sections can be structured into a chained sequence automatically playing each section. 
+
+Sections are colour coded for clarity and controlled by the [SECTION] pad column in session mode.
+
+![An image of the session row view section pads](../../../../images/session-row-view-section-pads.png "Synthstrom Deluge Session Row View Section Pads")
+> Diagram credit: [SynthDawg](https://www.synthdawg.com)
+
+Press & hold [SECTION] pad + turn (SELECT) to change number of repeats:
+- INFINITE (default), 
+- NUMBER, 
+- LAUNCH NON-EXCLUSIVELY
+
+Display shows countdown of section repeats when a repeat number is defined. To increase the sections to play prior to launch / stop, turn (SELECT) to change the section countdown.
+
+Press (SELECT) to cancel section countdown.
+
+### Selecting a Section for a Clip
+
+1. Press [SONG] to switch to session row view.
+1. Press [SHIFT] + press [SECTION] pad for the clip row of which to assign the section.
+1. The section colour will be changed. Toggle the selection until the section group desired is selected. This is defined by SECTION pad colour.
+
+### Arming to Launch / Stop a Section
+
+1. With the sequencer playing, Press a [SECTION] pad of the section to launch. The section group of clip rows will all be the same colour.
+
+1. The LAUNCH pads will flash when a repeat countdown is armed and any count shown on the display. The launch pads show the clip play status of green when in play and red when stopped.
+
+1. The section will play when launched for the number of cycles set by the number of repeats for the section.
+
+### Setting repeat mode for a section
+
+1. Press & hold [SECTION] pad of the section to change. 
+
+1. The repeat status will flash on the display. While holding the section pad, turn (SELECT).
+
+    - INFINITE. This will play the section infinitum or until a manual 
+    change is made.
+
+    - ‘1’ .... - number will set the amount of repeats that the section will 
+    play prior to moving to the next section. This will be displayed as a 
+    countdown and can be changed by turning (SELECT) or cancelled 
+    by pressing (SELECT).
+
+    - LAUNCH NON-EXCLUSIVELY. This enables the sharing launch 
+    status with other sections. Note that clips sharing a preset do not 
+    play simultaneously in song view.
+
+1. The section will play when launched as set by number of repeats for the section.
