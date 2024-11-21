@@ -7,6 +7,27 @@ An optional way of presenting the session mode is to use the grid view. Generall
 
 Deluge will only play one clip per track at one time in row view. So for example, if two clips use the same synth preset 1 or clone of 1, the clip rows can each be launched but each one will stop playback of the other, allowing only one clip instance of each track to play at one time.
 
+## Default Behaviour
+
+You can change the default behaviour of session grid view in the settings menu.
+
+1. Hold [SHIFT] + press (SELECT) to open the settings menu. 
+1. Turn (SELECT) and highlight the ‘DEFAULTS’ option. 
+1. Press (SELECT) to select and open the defaults sub-menu. 
+1. Turn (SELECT) and highlight the ‘UI’ option. 
+1. Press (SELECT) to select and open the UI sub-menu. 
+1. Turn (SELECT) and highlight the ‘SONG’ option. 
+1. Press (SELECT) to select and open the session view sub-menu.
+1. Turn (SELECT) and highlight the 'GRID' option.
+1. Press (SELECT) to select and open the session grid view sub-menu.
+1. Turn (SELECT) to choose:
+
+    - DEFAULT ACTIVE MODE. Default start mode as Green, Blue or Selection Mode. "Selection" allows changing the mode as described below, all other settings will always make mode snap back to the configured one (default is selection)
+    - SELECT IN GREEN MODE: Disable or Enable. Enabling this will allow the green (launch) mode button to be held to change their parameters. This is similar to blue mode, tradeoff is arming is executed on finger up (default is enable).
+    - EMPTY PADS: 
+        - UNARM: Disable or Enable. Enabling will set the behaviour so that pressing empty pads in a track will also unarm all playing tracks in that track (default is disable)
+        - CREATE + RECORD: Disable or Enable.
+
 ## Playing a Song
 
 1. Press [SONG] to switch to session mode. The button illuminates blue. If this is a new song and the first this time the session mode is selected, the selected view will only show the first clip compressed to the first row.

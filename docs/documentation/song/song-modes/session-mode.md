@@ -13,6 +13,20 @@ There are two views which are used to interact with session mode: [Session Row V
 
 ![An image of changing session view](../../../images/change-session-view.png "Synthstrom Deluge Change Session View")
 
+### Default View
+
+You can change the default session mode view between row or grid in the settings menu.
+
+1. Hold [SHIFT] + press (SELECT) to open the settings menu. 
+1. Turn (SELECT) and highlight the ‘DEFAULTS’ option. 
+1. Press (SELECT) to select and open the defaults sub-menu. 
+1. Turn (SELECT) and highlight the ‘UI’ option. 
+1. Press (SELECT) to select and open the UI sub-menu. 
+1. Turn (SELECT) and highlight the ‘SONG’ option. 
+1. Press (SELECT) to select and open the session view sub-menu.
+1. To change the layout that is presented when a new song is created select ‘LAYOUT’. Press (SELECT) to open the sub-menu and turn 
+(SELECT) to choose between ‘GRID’ and the default ‘ROWS’ options.
+
 ### Session Row View
 > Arrangement style presented with a clip per row.
 
@@ -23,5 +37,3 @@ There are two views which are used to interact with session mode: [Session Row V
 
 ![An image of session grid view](../../../images/session-grid-view.png "Synthstrom Deluge Session Grid View")
 > Diagram credit: [SynthDawg](https://www.synthdawg.com)
-
-
