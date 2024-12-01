@@ -71,11 +71,9 @@ nav:
           - Performance: documentation/getting-started/device-overview/performance.md
     - Song:
       - Song: documentation/song/song.md
-      - Settings: documentation/song/settings.md
-      - Master Parameters: documentation/song/master-parameters.md
-      - Modes:
-        - Session: documentation/song/song-modes/session-mode.md
-        - Arranger: documentation/song/song-modes/arranger-mode.md
+      - Modes: 
+        - Session Mode: documentation/song/song-modes/session-mode.md
+        - Arranger Mode: documentation/song/song-modes/arranger-mode.md
       - Track:
         - Track: documentation/song/track/track.md
         - Types: 
