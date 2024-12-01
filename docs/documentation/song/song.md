@@ -13,11 +13,13 @@ An example high level workflow for working with SONGS on Deluge:
 
 There are a number of master settings and sound parameters that can be configured that apply to the entire song project.
 
-### Scale
+### Settings
 
-### Swing
+#### Scale
 
-### Tempo
+#### Swing
+
+#### Tempo
 
 ### Parameters
 
