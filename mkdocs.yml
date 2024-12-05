@@ -187,15 +187,16 @@ nav:
           - Mod-fx: documentation/sound-engine/fx/types/mod-fx.md
           - Distortion: documentation/sound-engine/fx/types/distortion.md
           - Noise: documentation/sound-engine/fx/types/noise.md
+    - Recording: 
+      - Live looping: documentation/recording/live-looping.md
+      - Audio sampling: documentation/recording/audio-sampling.md
     - Sequencer:
       - Specifications: documentation/sequencer/sequencer-specifications.md
       - Note:
         - Note: documentation/sequencer/note/note.md
         - Arpeggiator: documentation/sequencer/note/arpeggiator.md
       - Automation: documentation/sequencer/automation.md
-    - Recording: 
-      - Live looping: documentation/recording/live-looping.md
-      - Audio sampling: documentation/recording/audio-sampling.md
+    - MIDI: documentation/midi.md
     - Stem export: documentation/stem-export.md
   - External resources:
     - external-resources/external-resources.md
