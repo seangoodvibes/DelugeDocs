@@ -21,6 +21,7 @@ Note: if you scroll, the note you previously selected will get de-selected and i
 ## Selected Note Auditioning
 
 By default when you select a note, the note will begin auditioning (so you can hear it) and it will continue auditioning until you either:
+
  - exit the note editor menu
  - press the note again
  - de-select the note by scrolling
