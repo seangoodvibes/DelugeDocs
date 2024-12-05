@@ -99,7 +99,6 @@ nav:
           - Audio Clip: documentation/song/clip/types/audio-clip.md
           - Instrument Clip: documentation/song/clip/types/instrument-clip.md
       - Section: documentation/song/section.md
-      - Stem export: documentation/song/stem-export.md
     - User interface:
       - User interface: documentation/ui/user-interface.md
       - Menu:
@@ -197,6 +196,7 @@ nav:
     - Recording: 
       - Live looping: documentation/recording/live-looping.md
       - Audio sampling: documentation/recording/audio-sampling.md
+    - Stem export: documentation/stem-export.md
   - External resources:
     - external-resources/external-resources.md
     - Quick links:
