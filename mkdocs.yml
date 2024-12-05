@@ -196,7 +196,10 @@ nav:
         - Note: documentation/sequencer/note/note.md
         - Arpeggiator: documentation/sequencer/note/arpeggiator.md
       - Automation: documentation/sequencer/automation.md
-    - MIDI: documentation/midi.md
+    - MIDI: 
+      - MIDI: documentation/midi/midi.md
+      - MIDI Follow: documentation/midi/midi-follow.md
+      - MIDI definition file: documentation/midi/midi-definition-file.md
     - Stem export: documentation/stem-export.md
   - External resources:
     - external-resources/external-resources.md
