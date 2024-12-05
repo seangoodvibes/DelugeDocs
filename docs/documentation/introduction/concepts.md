@@ -32,6 +32,8 @@
 #### Sample
 : An audio file that can be played back as part of an audio clip or sequenced as part of an instrument clip.
 
+#### Audio Clip
+
 #### Instrument Clip
 
 Instrument clips enable you to sequence patterns by entering events in the sequencer. Without these events, an instrument clip does not generate an output.
@@ -64,6 +66,12 @@ Saving a synth preset only saves the synth setting data. No patterns are stored 
 ###### Kit preset file
 
 Saving a kit preset only saves the kit setting data and sample links. No patterns are stored with kit presets.
+
+##### MIDI
+
+###### MIDI preset file
+
+##### CV
 
 ##### Row
 : A unique sequencer instance that is associated with a specific drum (for kit instrument clips) or note pitch (for melodic instrument clips). The instrument clip row contains information on the notes programmed into the sequencer. The instrument clip row also contains information on sequence length and the direction that the sequence should playback.
