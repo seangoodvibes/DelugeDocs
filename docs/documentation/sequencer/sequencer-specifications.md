@@ -166,3 +166,107 @@ The recording of note events can be performed manually using the step sequencer 
    - With Deluge as leader, [RECORD] enabled, press [PLAY] to perform a count-in prior to recording.
    - Metronome and display counts down 4-3-2-1 prior to recording.
    - Count-in is disabled if recording is going to begin for just one audio clip from which it’s going to auto-detect the tempo.
+
+## User Interface - Main Grid Pads
+
+Deluge has a 16 x 8 grid of pads which is used when sequencing notes and creating melodies and patterns. The actual programming grid is not limited to the 16 x 8 pads in focus and on view.
+
+### Navigation
+
+#### Scrolling
+
+Higher and lower notes (synth) or different samples (kit) can be scrolled up and down or longer time sequences left / right are available. The focus area can be scrolled and zoomed across the pattern real estate to suit your workflow and area of interest.
+
+**insert picture from manual**
+
+##### Horizontal Scrolling
+
+1. Press [CLIP] to select clip view. This is indicated by the clip button illuminated blue.
+
+1. Select SYNTH or KIT by pressing [SYNTH] or [KIT]. The selected button illuminates red.
+
+1. Turn (SCROLL◄►) to scroll the grid in focus. If there are no notes / steps existing beyond the visible pad grid then no scrolling will take place. Scrolling will move by the full page of 16 steps.
+
+1. Editing of notes and steps is retained irrespective of whether the notes are in focus and viewed within the pad grid. Horizontal scrolling adjust the step columns in focus based on the time division
+
+##### Vertical Scrolling
+
+1. Press [CLIP] to select clip view. This is indicated by the clip button illuminated blue.
+
+1. Select SYNTH or KIT by pressing [SYNTH] or [KIT]. The selected button illuminates red.
+
+1. Turn (SCROLL▼▲) to scroll the grid in focus. Scrolling will take place. Scrolling will move by one row at a time and for synth notes the audition pads will show the root note position for synths and the selected row for kits.
+
+1. Editing of notes and steps is retained irrespective of whether the notes are in focus and viewed within the pad grid. Vertical scrolling adjusts the step rows in focus based on the note pitch for synths or specific sounds for kits.
+
+#### Zooming
+
+Zooming the grid also uses the scroll and zoom rotary control. Zooming is performed across the horizontal timeline of the grid. The grid resolution will change to the zoom level selected and as such may include more or less visible information. Zooming-in is possible from the 16th default to 128th notes.
+
+**insert picture from manual**
+
+##### Horizontal Zooming
+
+1. Press [CLIP] to select clip view. This is indicated by the clip button illuminated blue. 
+
+1. Select SYNTH or KIT by pressing [SYNTH] or [KIT]. The selected button illuminates red.
+
+1. Press + turn (SCROLL◄►) to zoom the grid showing more or less detail. Step resolution will expand up to 128th notes and shrink depending on the zoom level. Default is 16th notes.
+
+1. The bar, beat of the current bar and (if visible) the 16th note in the current beat flashes for a short period on the display as adjustments are made.
+
+**insert picture from manual**
+
+##### Checking Zoom level Resolution
+
+1. Press [CLIP] to select clip view. This is indicated by the clip button illuminated blue.
+
+1. Select SYNTH or KIT by pressing [SYNTH] or [KIT]. The selected button illuminates red.
+
+1. Press (SCROLL◄►). The display will flash showing the timing division resolution depending on the clip length. Examples are:-
+
+**insert picture from manual**
+
+### Adjusting Clip Sequence Length
+
+Default clip length is 1 bar. This however can be changed which will extend the sequence beyond the grid in focus. This can be navigated using the scroll and zoom features. Automatic extending of clips will take place if recorded to a blank clip (no notes or sounds).
+
+#### Extend length
+
+1. Press [SHIFT] + turn (SCROLL◄►) control to adjust the clip length. Clockwise to increase length. Anti-clockwise to reduce clip length.
+  - The display will show the length in bars : beats : 16th notes.
+  - The column pads on the grid will also indicate the clip length by illuminating dim grey for columns outside of the length. The grid columns within the length will be unlit / off.
+  - Automatic scrolling will take place if the length is extended further beyond the right side columns. Automatic zooming will take place when clip length is reduced less than half of the grid. 16th note examples:
+
+**insert picture from manual**
+
+#### Duplicating pattern contents - Multiply clip length
+
+1. Press [SHIFT] + press (SCROLL◄►) to duplicate the clip length once and associated pattern.
+  - Automatic zooming out will take place when clip length is increased. The grid resolution time division may automatically change for example from 16th to 8th notes.
+  - Multiplying again will therefore ‘double’ the 8th note view.
+  - Zoom can be restored and scrolling to view across the entire grid if required.
+  - Any iteration dependance settings may be automatically changed when duplicating / multiplying
+
+**insert picture from manual**
+
+### Cross Screen Editing
+
+Cross-screen editing enables duplicated patterns across multiple, equivalent zoom level screens to be edited in-sync with the current screen displayed on the 16x8 grid. This means changing one screen, for example, to add an extra kick at the end of a bar, will be applied to all other out-of-view screens.
+
+#### Applying edits across multiple screens
+
+1. Select a pattern and duplicate it to match your needs. Example 1 bar pattern duplicated twice and visible across 4 x ‘screens’, of the 16x8 grid with 16th resolution.
+
+1. Ensure the screen to edit is in focus. Example, first bar of a 4 bar pattern at 16th resolution.
+1. Edit the pattern as desired. Example, place extra kick at the end of the pattern, first bar. The edit will only affect the first bar.
+
+1. Press [CROSS-SCREEN] to switch the mode on. Button lit.
+
+1. Edit the pattern as desired. Example, place extra kick at the end of the pattern, first bar. The edit will be changed in the first bar in view and also bar 2,3 and 4 off screen.
+
+1. Edits in cross-screen mode are dependant on, and locked to the zoom level. Example, if 8th note resolution displays 2 bars in view and changes are made in cross-screen mode at the end of bar 2, this will also change at the end of bar 4, the screen out of view.
+
+Note: Clips individually remember whether, and at what zoom level, they have cross-screen edit mode applied. Entering the mode for one track will not automatically be active for any other track that is then edited.
+
+**insert picture from manual**
