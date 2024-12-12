@@ -22,7 +22,7 @@ Playing the sequence is a simple process using the mode group transport controls
 
 **- Insert picture from manual**
 
-## Setting the Sequencer Play Direction
+### Setting the Sequencer Play Direction
 
 1. Press [CLIP] to select clip view. This is indicated by the clip button illuminated blue. For a KIT clip*, select the row, press [AUDITION].
    
