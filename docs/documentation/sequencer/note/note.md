@@ -126,3 +126,11 @@ This is a destructive process and the option is set ON by default in the Setting
 1. Press (SCROLL◄►) + [BACK / UNDO].
 
 1. Display shows ‘CLIP CLEARED’. Notes and their associated automation will be cleared from the clip, including notes out of view.
+
+## Scales
+
+Scale mode is automatically set when new synth, MIDI and CV clips are created. Scale mode will lock the notes to a specific scale, by default a major scale. Chromatic scale can be selected by exiting ‘scale’ mode. Other scales can be selected.
+
+**Insert picture from manual**
+
+
