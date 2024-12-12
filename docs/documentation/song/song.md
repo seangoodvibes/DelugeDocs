@@ -19,7 +19,11 @@ There are a number of master settings and sound parameters that can be configure
 
 #### Swing
 
+Swing feature provides a rhythmic adjustment that brings a more natural and organic feel to songs and operates generically and not at an individual note level.
+
 #### Tempo
+
+Tempo can be set manually or a tap tempo option is available.
 
 ### Parameters
 
