@@ -6,7 +6,7 @@ The name of an event that can be programmed in an instrument clip row in order t
 
 Several basic parameters of notes can be changed in settings. These include: quantization.
 
-## Changing the default recording quantization
+### Changing the default recording quantization
 
 Quantization sets the accuracy and resolution of how close to the grid intervals notes are placed.
 
@@ -56,9 +56,21 @@ Velocity can also be changed in **Velocity View** and in **Note Editor** (insert
 
 ### Changing the position of recorded note's
 
-#### Nudging individual Note
+#### Nudging individual note horizontally
 
-#### Shift / Rotate Instrument Clip Row
+1. Hold [PAD] + Press and turn (SCROLL◄►) to nudge the selected [PAD] note event forward or backwards, indicated by +/- values.
+
+1. This will nudge at the song’s minimum resolution, default is 384th notes.
+
+#### Adjusting the position of all notes in a clip horizontally
+
+Press (SCROLL▼▲) + Turn (SCROLL◄►) control to adjust the clip note events i.e. notes and automation horizontally across the grid.
+    - The note events will move 1 step incrementally across the horizontal grid. The steps are based on the zoom level.
+    - Note events which scroll off the edge left or right will wrap back onto the grid from the opposite side.
+
+#### Adjusting the position of all notes in a note row horizontally
+
+Insert instructions
 
 #### Quantizing / Humanizing Instrument Clip Rows
 
@@ -69,3 +81,48 @@ This is a destructive process and the option is set ON by default in the Setting
 1. Hold the [AUDITION] + Turn (TEMPO) clockwise to quantize the selected row or counter clockwise to humanize the selected row.
 
 1. Hold any [AUDITION] Pad + Press & Turn (TEMPO) clockwise to quantize the all rows or counter clockwise to humanize all rows.
+
+### Changing the length of recorded note's
+
+1. Note lengths can be set when entering clip notes by pressing the note START [PAD] + END [PAD] on the same row. For kits, samples will automatically map across the pads matching the sample length.
+
+**Insert picture from manual**
+
+1. Reduce the note length by pressing one of the extension [PAD]’s to shorten it.
+
+1. To extend a note across grid views:
+    - Press the [PAD] for the note start.
+    - Scroll to the next grid view ‘page’ using (SCROLL◄►). This would be further in time from the original note.
+    - On the same row, press (SCROLL◄►) + [PAD] at the end position.
+    - The note will be extended across the ‘page’.
+
+1. To create a note for the duration of the clip, for example as a pad or to create a ‘drone’ note:
+    - Press the [PAD] for the note start on the first column (left position) of the clip.
+    - On the same row, press (SCROLL◄►) + [PAD] at the last column (right position).
+    - The note will be extended across the full clip.
+    - Deluge will ensure that these type of notes play continuously through the clip and will loop. This is handled as a special case and the note does not restart.
+
+## Copy / Pasting Notes
+
+1. Press [LEARN / INPUT] + press (SCROLL◄►) to copy the clips notes.
+    - This will copy the step range of notes in the current view on the grid at the current scroll and zoom position.
+    - The time range of notes is what is copied including all notes out of view above and below the pad range.
+    - Copy can be performed from one clip to another in the same or different songs as well as within the same clip.
+
+1. Select the new location for pasting the previously copied range. For example extend the clip length or scroll to another part of the clip.
+
+1. Press [SHIFT] + [LEARN / INPUT] + press (SCROLL◄►) to paste the current clips notes:
+    - When pasting, the notes are pasted into the current view.
+    - If the destination view is transposed from the original copied location the notes are pasted into the new transposed position.
+    - If only a part of the grid is selected as the destination, the notes for the available columns are pasted and the rest discarded.
+    - Notes will be pasted into any new zoom levels where notes
+
+## Removing Notes
+
+#### Remove individual note
+
+#### Remove all notes
+
+1. Press (SCROLL◄►) + [BACK / UNDO].
+
+1. Display shows ‘CLIP CLEARED’. Notes and their associated automation will be cleared from the clip, including notes out of view.
