@@ -10,7 +10,69 @@ Several basic parameters of notes can be changed in settings. These include: qua
 
 Scale mode is automatically set when new synth, MIDI and CV clips are created. Scale mode will lock the notes to a specific scale, by default a major scale. Chromatic scale can be selected by exiting ‘scale’ mode. Other scales can be selected.
 
+Note: All songs with multiple clips set to SCALE mode will always be locked to the same scale. Changes in scale settings on one clip will affect all others in scale mode. This also includes Deluge analysis and evaluation of scale algorithm when entering scale mode, where all clip notes will be evaluated. This may lead to notes being added / changes in the clips when editing scales.
+
 **Insert picture from manual**
+
+#### Selecting scale mode
+
+1. Press [SCALE] to switch scale mode ON. Button lit blue.
+
+1. Press [SCALE] a second time to switch it OFF. Button unlit.
+
+#### Deluge analysis and selection of note scale
+
+1. With notes programmed into the sequence grid.
+
+1. Press [SCALE] to switch it ON. Button illuminates blue. Cycle it off and on if already selected to ON.
+
+1. Deluge will evaluate the notes and establish a ‘best fit’ scale for the selected notes as well as the scale root note.
+
+1. The selected scale will be displayed flashing for a few seconds when selecting [SCALE].
+
+#### Manually setting a root note
+
+1. With notes programmed into the sequence grid and keyboard mode off.
+
+1. Press [SCALE] + [AUDITION] pad for the desired root note. The audition pads can be played to display the notes assigned to each pad.
+
+1. If [KEYBOARD] mode is on, lit blue, Hold [SCALE] + turn (SELECT)
+
+#### Manually changing scale
+
+1. Press [SHIFT] + [SCALE] to cycle through the seven available scales.
+
+1. The grid pattern will change with notes moving to the correct note row for the selected scale.
+
+1. If [KEYBOARD] mode is on, lit blue, Hold [SCALE] + press (SELECT)
+
+#### Creating a custom scale
+
+1. Exit scale mode by pressing [SCALE]. Button should be unlit.
+
+1. Select the notes on the grid that will be attributed to the new scale.
+
+1. Press [SCALE], Deluge will evaluate the notes and establish a best fit scale. Button will illuminate blue.
+
+1. If notes selected form an existing scale this will be recognised. If the notes don't form one of the seven Deluge scales a custom scale identified on the display as OTHER SCALE will be created.
+
+1. Other scales for the notes would indicate CUSTOM SCALE WITH MORE THAN 7 NOTES IN USE on the display if attempted to be selected when the notes don't fit.
+
+#### Manual sharpening / flattening notes in custom scales
+
+1. Ensure [SCALE] mode is on.
+
+1. For the selected note / row, press & hold [AUDITION] pad + press & turn (SELECT) to sharpen or flatten the note.
+    - Note will play when pressed. To adjust silently, use [SHIFT] with the [AUDITION] pad.
+    - [SCALE] will flash quickly if changes attempted are not available. For example making a sharp the same as the next note / row.
+
+#### Transposing a clip up or down
+
+1. Press & turn [SCROLL▼▲] to transpose the whole octave. 
+
+1. Press [SHIFT] + press & turn [SCROLL▼▲] to transpose by semitone increments.
+
+1. ALL clips that are in SCALE mode will be transposed by the same semitone increment when adjusting the transposition
 
 ### Changing the default recording quantization
 
