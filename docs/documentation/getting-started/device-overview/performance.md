@@ -20,6 +20,14 @@ All the above should be tied into a discussion on polyphony, voice priority, etc
 - Take a look at the scheduler stats print out and in sample heavy songs you can be culling at under 50% cpu usage
 - I think it’s important to differentiate - filters in an fm synth double the cpu load per voice
 
+More info from Mark:
+- Reduced 7SEG performance from Official to Community Firmware
+- There’s a significant difference in performance from 7seg to OLED and the community firmware is based on the OLED codebase
+- you lose about 5 voices for the oled version
+- the firmware grew by about 100k to accomodate the OLED and that takes up memory that would otherwise be used for samples
+- they're running out of ram/streaming bandwidth and when I compared to the last official OLED release they performed the same. It's multi faceted since less ram means less ability to cache, which means more streaming is required, which requires more time spent servicing the SD card etc. etc.
+- I don't think it handles situations where the bandwidth is overwhelmed cleanly (e.g. if you're streaming 9 stereo samples when there's only bandwidth for 6 it'll tend to drop 4-5 voices instead of 3) and that makes it very sensitive to having less ram available
+
 ## Synth voices and samples
 
 The Deluge can handle much fewer samples than synth voices.
