@@ -123,6 +123,7 @@ nav:
         - DX7: documentation/ui/file-browser/dx7.md
         - MIDI device definition file: documentation/ui/file-browser/midi-device-definition-file.md
       - Alphanumeric Keyboard: documentation/ui/alphanumeric-keyboard.md
+      - Grid Layout: documentation/ui/grid-layout.md
       - Views:
         - Arranger: documentation/ui/views/arranger-view.md
         - Session:
