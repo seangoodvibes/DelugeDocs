@@ -132,13 +132,14 @@ Velocity can also be changed in **Velocity View** and in **Note Editor** (insert
 
 #### Adjusting the position of all notes in a clip horizontally
 
-Press (SCROLL▼▲) + Turn (SCROLL◄►) control to adjust the clip note events i.e. notes and automation horizontally across the grid.
+1. Press (SCROLL▼▲) + Turn (SCROLL◄►) control to adjust the clip note events i.e. notes and automation move horizontally across the grid.
     - The note events will move 1 step incrementally across the horizontal grid. The steps are based on the zoom level.
     - Note events which scroll off the edge left or right will wrap back onto the grid from the opposite side.
+    - Placeholder: talk about how you can disable moving automation in clip view.
 
 #### Adjusting the position of all notes in a note row horizontally
 
-Insert instructions
+1. Hold [ÂUDITION PAD] + Press and turn (SCROLL◄►) to adjust the note row events i.e. notes in a specific row move horizontally across the grid.
 
 #### Quantizing / Humanizing Instrument Clip Rows
 
