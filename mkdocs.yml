@@ -69,6 +69,7 @@ nav:
           - SD card: documentation/getting-started/device-overview/sd-card.md
           - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
           - Performance: documentation/getting-started/device-overview/performance.md
+          - Factory library: documentation/getting-started/device-overview/factory-library.md
     - Song:
       - Song: documentation/song/song.md
       - Modes: 
