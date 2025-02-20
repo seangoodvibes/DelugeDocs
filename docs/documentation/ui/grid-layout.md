@@ -1,5 +1,7 @@
 # Grid layout
 
+Placeholder page to talk about grid shortcuts. This would be the spot to talk about layered shortcuts.
+
 ## Setting the shortcut version pad layout
 
 1. Press [SHIFT] + press (SELECT) to open the settings menu.
