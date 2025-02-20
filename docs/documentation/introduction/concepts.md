@@ -134,7 +134,7 @@ The user interface for interacting with various project settings.
 
 The user interface for loading and saving compatible files (e.g. project file, preset file, midi device definition file).
 
-## Harware controls
+## Hardware controls
 
 The controls built into the Deluge hardware that enable a user to interact with the Deluge device.
 
