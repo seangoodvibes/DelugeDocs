@@ -171,20 +171,20 @@ Arranger view is a powerful persona and view within Deluge. Understanding the ba
 ### Synchronising playback between views
 
 - In arranger view:
-1. Press the dimly lit [PAD] clip ‘tail’, not the left most bright pad, which will switch to clip view.
-1. Pressing [PLAY] after entering clip view this way will start playback in the arranger from the beginning of this clip instance.
+    1. Press the dimly lit [PAD] clip ‘tail’, not the left most bright pad, which will switch to clip view.
+    1. Pressing [PLAY] after entering clip view this way will start playback in the arranger from the beginning of this clip instance.
 
 - In arranger view:
-1. Press [PLAY] to play back the arrangement.
-1. Switch to song view [SONG], button lit solid blue.
-1. The pads will be lit slightly dim while arranger controls the transport playback.
-1. Control can be regained within the song mode. Sections and clips can be triggered in song mode which override the arranger.
+    1. Press [PLAY] to play back the arrangement.
+    1. Switch to song view [SONG], button lit solid blue.
+    1. The pads will be lit slightly dim while arranger controls the transport playback.
+    1. Control can be regained within the song mode. Sections and clips can be triggered in song mode which override the arranger.
 
 - In song view:
-1. Press [PLAY].
-1. Press [SONG] which will switch to the arranger view.
-1. Turn (SCROLL◄►) to set the playback start position in the arranger view.
-1. Press & hold (SCROLL◄►) + [PLAY] to start arranger playback from the new position once the song loop completes.
+    1. Press [PLAY].
+    1. Press [SONG] which will switch to the arranger view.
+    1. Turn (SCROLL◄►) to set the playback start position in the arranger view.
+    1. Press & hold (SCROLL◄►) + [PLAY] to start arranger playback from the new position once the song loop completes.
 
 ### Changing a tracks preset when in Arranger View
 
