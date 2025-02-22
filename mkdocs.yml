@@ -70,6 +70,7 @@ nav:
           - MPE setup: documentation/getting-started/device-overview/mpe-setup.md
           - Performance: documentation/getting-started/device-overview/performance.md
           - Factory library: documentation/getting-started/device-overview/factory-library.md
+          - Shortcuts: documentation/getting-started/device-overview/shortcuts.md
     - Song:
       - Song: documentation/song/song.md
       - Modes: 
