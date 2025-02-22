@@ -6,8 +6,33 @@ A song is a discrete creative endeavour, such as an arrangement, sketch, 8-bar l
 
 An example high level workflow for working with SONGS on Deluge:
 
-![An image a high level workflow for working with Songs on Deluge](../../images/example-song-workflow.png "Synthstrom Deluge Example Song Workflow")
-> Diagram credit: [SynthDawg](https://www.synthdawg.com)
+``` mermaid
+stateDiagram-v2
+    Start --> 2: New song <br> [SHIFT] + [LOAD], [LOAD]
+    Start --> 3: Load song <br> [LOAD], turn (SELECT)
+    2: New song
+    3: Existing song
+    2 --> 4
+    3 --> 4
+    4: Session mode
+    4 --> 5: Default
+    4 --> 6: Optional <br> Hold [SONG] + Turn (SELECT)
+    5: Row view
+    6: Grid view
+    5 --> 7
+    6 --> 7
+    7: Select the instrument clip per row <br> Hold [PAD] or the row to edit or select a clip
+    7 --> 8: Edit clips
+    8: Clip view <br> Press [PAD] to select clip view
+    8 --> 7: Continue building a song <br> Option to arrange
+    8 --> 9: Tweak the common parameters in Session mode
+    9: 'Affect parameter' controls <br> Hold [PAD] for row and adjust 
+    9 --> 10: Capture a full arrangement
+    10: Record from Session mode into Arranger mode
+    10 --> 11
+    11: Save <br> [SAVE] to save the song.
+    11 --> End
+```
 
 ## Master Settings and Parameters
 
