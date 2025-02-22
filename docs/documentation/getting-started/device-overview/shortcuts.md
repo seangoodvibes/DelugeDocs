@@ -1,8 +1,8 @@
 # Shortcuts
 
-Shortcuts are the fastest way to perform actions on the Deluge. 
+Shortcuts are the fastest way to execute actions on the Deluge. 
 
-Examples of actions that can be performed using shortcuts include:
+Examples of actions that can be executed using shortcuts include:
 
 - Clearing notes and automation
 - Copy / pasting notes and automation
@@ -20,7 +20,7 @@ In the future, an Actions menu will also be created on the Deluge to execute all
 
 ## All Views
 
-| Context | Action | Command | Comments |
+| Context | Action | Shortcut | Comments |
 | - | - | - | - |
 | System | Adjust brightness | [SHIFT] + [LEARN / INPUT] + turn (SCROLL▼▲) | |
 | System | Settings menu | [SHIFT] + (SELECT) | |
