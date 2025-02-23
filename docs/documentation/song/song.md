@@ -8,30 +8,37 @@ An example high level workflow for working with SONGS on Deluge:
 
 ``` mermaid
 stateDiagram-v2
-    Start --> 2: New song <br> [SHIFT] + [LOAD], [LOAD]
-    Start --> 3: Load song <br> [LOAD], turn (SELECT)
-    2: New song
-    3: Existing song
-    2 --> 4
-    3 --> 4
-    4: Session mode
-    4 --> 5: Default
-    4 --> 6: Optional <br> Hold [SONG] + Turn (SELECT)
-    5: Row view
-    6: Grid view
-    5 --> 7
-    6 --> 7
-    7: Select the instrument clip per row <br> Hold [PAD] or the row to edit or select a clip
-    7 --> 8: Edit clips
-    8: Clip view <br> Press [PAD] to select clip view
-    8 --> 7: Continue building a song <br> Option to arrange
-    8 --> 9: Tweak the common parameters in Session mode
-    9: 'Affect parameter' controls <br> Hold [PAD] for row and adjust 
-    9 --> 10: Capture a full arrangement
-    10: Record from Session mode into Arranger mode
-    10 --> 11
-    11: Save <br> [SAVE] to save the song.
-    11 --> End
+    Start --> NewSong: New song <br> [SHIFT] + [LOAD], [LOAD]
+    Start --> ExistingSong: Load song <br> [LOAD], turn (SELECT)
+    NewSong --> SessionMode
+    ExistingSong --> SessionMode
+    SessionMode --> RowView: Default
+    SessionMode --> GridView: Optional <br> Hold [SONG] + Turn (SELECT)
+    RowView --> EditSong
+    GridView --> EditSong
+    EditSong --> EditClip: Select the clip to edit <br> Hold [PAD] or the row to edit or select a clip
+    EditClip --> ClipParameters: Edit clip parameters while in Session Mode <br> Hold clip [PAD] and adjust
+    EditClip --> ClipView: Edit clips <br> Press [CLIP]
+    ClipView --> EditSong: Continue building a song <br> Option to arrange <br> Press [SONG]
+    EditSong --> SongFX: Tweak the Song master parameters in Session mode <br> Enable [AFFECT ENTIRE]
+    EditSong --> RecordToArranger: Capture a full arrangement
+    RecordToArranger --> ArrangerMode: Edit Arrangement
+    EditSong --> Save
+    Save --> End
+
+    NewSong: New song
+    ExistingSong: Existing song   
+    SessionMode: Session mode   
+    RowView: Row view
+    GridView: Grid view  
+    EditSong: Edit Song
+    EditClip: Edit Clip
+    ClipParameters: Clip 'Affect Entire' controls
+    ClipView: Clip view <br> Press [PAD] to select clip view
+    SongFX: Song FX
+    RecordToArranger: Record from Session mode into Arranger mode
+    ArrangerMode: Arranger Mode <br> Press [SONG] while in Session Mode to switch to Arranger Mode
+    Save: Save <br> [SAVE] to save the song.
 ```
 
 ## Master Settings and Parameters
