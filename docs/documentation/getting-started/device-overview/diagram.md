@@ -4,40 +4,72 @@
 
 ## Voice Architecture
 
-![An image of the Synthstrom Deluge Voice Architecture](../../../images/deluge-voice-architecture.jpg "Synthstrom Deluge Voice Architecture Diagram")
+Community Firmware 1.1
+<br>
+Diagram v0.6 - work in progress, may contain errors
 
 ``` mermaid
 stateDiagram-v2
     state Voice {
         OscillatorNoise --> Wavefolder 
-        Wavefolder --> Filters
-        Filters --> AmplifierVoice
+        Wavefolder --> FiltersVoice
+        FiltersVoice --> AmplifierVoice
         DefaultModulatorsVoice --> AmplifierVoice: Velocity <br> Envelope 1
         AmplifierVoice --> Saturation
         Saturation --> PanVoice
-        PanVoice --> PanClipKitRow
+        PanVoice --> PanClipKitRow: Voice to Clip / Kit Row
     }
     OscillatorNoise: Oscillators & Noise
+    FiltersVoice: Filters
     AmplifierVoice: Amplifier
     DefaultModulatorsVoice: Default Modulators
     PanVoice: Pan
 
     state ClipKitRow {
-        PanClipKitRow --> DecimationBitCrush
-        DecimationBitCrush --> ModFX
-        ModFX --> Delay
-        Delay --> Stutter
-        Stutter --> AmplifierClipKitRow
+        PanClipKitRow --> DecimationBitCrushClipKitRow
+        DecimationBitCrushClipKitRow --> ModFXClipKitRow
+        ModFXClipKitRow --> DelayClipKitRow
+        DelayClipKitRow --> StutterClipKitRow
+        StutterClipKitRow --> AmplifierClipKitRow
         DefaultModulatorsClipKitRow --> AmplifierClipKitRow: Velocity <br> Envelope 1
-        AmplifierClipKitRow --> ReverbSend
-        ReverbSend --> Compressor
-        Compressor --> PanClipKitRow: Kit Row to Kit Clip
+        AmplifierClipKitRow --> ReverbSendClipKitRow
+        ReverbSendClipKitRow --> CompressorClipKitRow
+        CompressorClipKitRow --> PanClipKitRow: Kit Row to Kit Clip
+        CompressorClipKitRow --> PreFXMix: Clip to Song
     }
     ClipKitRow: Clip / Kit Row
     PanClipKitRow: Pan
-    DecimationBitCrush: Decimation & Bitcrush
-    ModFX: Mod FX
+    DecimationBitCrushClipKitRow: Decimation & Bitcrush
+    ModFXClipKitRow: Mod FX
+    DelayClipKitRow: Delay
+    StutterClipKitRow: Stutter
     AmplifierClipKitRow: Amplifier
     DefaultModulatorsClipKitRow: Default Modulators
-    ReverbSend: Reverb Send
+    ReverbSendClipKitRow: Reverb Send
+    CompressorClipKitRow: Compressor
+
+    state Song {
+        PreFXMix --> ModFXSong
+        ModFXSong --> DelaySong
+        DelaySong --> AmplifierSong
+        AmplifierSong --> ReverbSendSong
+        Reverb --> FiltersSong
+        ReverbSendSong --> FiltersSong
+        FiltersSong --> DecimationBitCrushSong
+        DecimationBitCrushSong --> StutterSong
+        StutterSong --> PanSong
+        PanSong --> CompressorSong
+        CompressorSong --> PostFXOutput
+    }
+    PreFXMix: Pre-FX Mix
+    ModFXSong: Mod FX
+    DelaySong: Delay
+    AmplifierSong: Amplifier
+    ReverbSendSong: Reverb Send
+    FiltersSong: Filters
+    DecimationBitCrushSong: Decimation & Bitcrush
+    StutterSong: Stutter
+    PanSong: Pan
+    CompressorSong: Compressor
+    PostFXOutput: Post-FX Output
 ```
