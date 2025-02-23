@@ -8,7 +8,7 @@ edit_uri: edit/main/docs/
 # Configuration
 theme:
     name: material
-    logo: assets/logo.png  
+    logo: assets/logo.png
     palette: 
       - media: "(prefers-color-scheme)"
         toggle:
@@ -48,10 +48,16 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - docs/overrides/.icons
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+
+extra_css:
+  - stylesheets/extra.css
 
 not_in_nav: |
   /quick-reference/quick-reference.md
