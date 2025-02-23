@@ -24,7 +24,7 @@ stateDiagram-v2
     EditSong --> RecordToArranger: Capture a full arrangement
     RecordToArranger --> ArrangerMode: Edit Arrangement <br> Press [SONG] while in Session Mode to switch to Arranger Mode
     EditSong --> AudioExport: Export Audio <br> Press [SAVE] + [RECORD]
-    EditSong --> Save
+    EditSong --> Save: Save project <br> [SAVE] to save the song.
     Save --> End
 
     NewSong: New song
@@ -40,7 +40,7 @@ stateDiagram-v2
     RecordToArranger: Record from Session mode into Arranger mode
     ArrangerMode: Arranger Mode
     AudioExport: Audio Export
-    Save: Save <br> [SAVE] to save the song.
+    Save: Save
 ```
 
 ## Master Settings and Parameters
