@@ -18,11 +18,12 @@ stateDiagram-v2
     GridView --> EditSong
     EditSong --> EditClip: Select the clip to edit <br> Hold [PAD] or the row to edit or select a clip
     EditClip --> ClipParameters: Edit clip parameters while in Session Mode <br> Hold clip [PAD] and adjust
-    EditClip --> ClipView: Edit clips <br> Press [CLIP]
+    EditClip --> ClipView: Edit clips <br> Press [CLIP] or [PAD]
     ClipView --> EditSong: Continue building a song <br> Option to arrange <br> Press [SONG]
     EditSong --> SongFX: Tweak the Song master parameters in Session mode <br> Enable [AFFECT ENTIRE]
     EditSong --> RecordToArranger: Capture a full arrangement
-    RecordToArranger --> ArrangerMode: Edit Arrangement
+    RecordToArranger --> ArrangerMode: Edit Arrangement <br> Press [SONG] while in Session Mode to switch to Arranger Mode
+    EditSong --> AudioExport: Export Audio <br> Press [SAVE] + [RECORD]
     EditSong --> Save
     Save --> End
 
@@ -34,10 +35,11 @@ stateDiagram-v2
     EditSong: Edit Song
     EditClip: Edit Clip
     ClipParameters: Clip 'Affect Entire' controls
-    ClipView: Clip view <br> Press [PAD] to select clip view
+    ClipView: Clip view
     SongFX: Song FX
     RecordToArranger: Record from Session mode into Arranger mode
-    ArrangerMode: Arranger Mode <br> Press [SONG] while in Session Mode to switch to Arranger Mode
+    ArrangerMode: Arranger Mode
+    AudioExport: Audio Export
     Save: Save <br> [SAVE] to save the song.
 ```
 
