@@ -119,12 +119,122 @@ In the future, an Actions menu will also be created on the Deluge to execute all
 
 ## Clip View
 
+| Context | Action | Shortcut |
+| - | - | - |
+| Clip | Change clip colour | [SHIFT] + turn (SCROLL▼▲) |
+| Clip | Change clip preset, MIDI Ch, CV out | Turn (SELECT) |
+| Clip | Adjust clip length | [SHIFT] + turn (SCROLL◄►) |
+| Clip | Duplicate / multiply and append clip content | [SHIFT] + press (SCROLL◄►) |
+| Clip | Horizontal clip shift / nudge L-R | Press & hold (SCROLL▼▲) + turn (SCROLL◄►) |
+| Clip | Playback from current screen |Press & hold (SCROLL◄►) + [PLAY] |
+| Clip | Clear clip | Push (SCROLL◄►) + [BACK / UNDO] |
+| Clip | Change Clip Direction | [SHIFT] + [DIRECTION] Direction may not be labelled on the faceplate. Pad is located to the right of the OSC SYNC pad on the FM MOD 1 Column. |
+| Note | Note length | Hold [PAD] start + press [PAD] end on the same row |
+| Note | Note length - long | Press [PAD] start. Navigate grid - turn (SCROLL◄►). Hold (SCROLL◄►) + press [PAD] end on the same row |
+| Note | Note velocity | Hold [PAD] on the grid + turn (SCROLL◄►) |
+| Note | Note repeat | Hold [PAD] on the grid + hold and turn (SCROLL▼▲) |
+| Note | Note play probability % | Hold [PAD] of note + turn (SELECT) anticlockwise / left |
+| Note | Set dependance on first note | Hold All [PAD]s together + turn (SELECT) anticlockwise / left |
+| Note | Iteration dependance for a note | Hold [PAD] of note + turn (SELECT) clockwise / right |
+| Note | Copy notes | Hold [LEARN / INPUT] + press (SCROLL◄►) |
+| Note | Paste notes | Hold [LEARN / INPUT] + [SHIFT] + press (SCROLL◄►) |
+| Note | Nudge individual notes horizontally | Hold [Pad] + press and turn (SCROLL◄►) |
+| Parameter | Automate a parameter | While recording, LED on; turn (UPPER) or (LOWER) of selected parameter |
+| Parameter | Per note parameter change | Hold [PAD] of note start + turn (UPPER) or (LOWER) of selected parameter |
+| Parameter | Delete parameter automation | [SHIFT] + press (UPPER) or (LOWER) of selected parameter |
+| Parameter | Copy automation | Hold [LEARN / INPUT] + press (UPPER) or (LOWER) of selected parameter |
+| Parameter | Paste automation | Hold [LEARN / INPUT] + [SHIFT] + press (UPPER) or (LOWER) of selected parameter |
+| Sample | Load sample | [AUDITION] + [LOAD] |
+| Sound | Sound Editor | [SHIFT] + [PAD] of shortcut as labelled or press (SELECT) |
+| Preset | Preset load interface | [LOAD] + [SYNTH] or [KIT] or [MIDI] |
+| Audio | Audio clip trim start | Press [PAD] of leftmost column at the start of the waveform |
+| Audio | Audio clip trim end | Press [PAD] of rightmost column at the end of the waveform |
+| Euclidean Seq | Number of events on the row | Hold [AUDITION] + press & turn (SCROLL▼▲) |
+| Euclidean Seq | Row length | Hold [AUDITION] + turn (SCROLL◄►) |
+| Euclidean Seq | Rotate / Shift events or notes | Hold [AUDITION] + press & turn (SCROLL◄►) |
+
 ## Sound Editor
 
+| Context | Action | Shortcut |
+| - | - | - |
+| Sound Editor | Editor Move cursor | Turn (SCROLL◄►) to navigate |
+| Controls | Parameter knob assignment | Hold [LEARN / INPUT] + turn (UPPER) or (LOWER) parameter control |
+| Controls | MIDI knob assignment | Hold [LEARN / INPUT] + turn (MIDI) Control of external device |
+| Controls | Unassign MIDI control knob | [SHIFT] + [LEARN / INPUT] |
+| Preset | Save preset | [SAVE] |
+| Parameter | Apply a change to entire kit | Press & hold [AFFECT ENTIRE] while changing parameter |
+ 
 ## Synth, Keyboard, MIDI, CV Clips
+
+| Context | Action | Shortcut |
+| - | - | - |
+| Synth | Synth resample | [RECORD] + [AUDITION] or grid [PAD] |
+| Synth | Load blank synth | [SHIFT] + [SYNTH] |
+| Synth | Load synth preset to a kit row | [AUDITION] + [SYNTH] |
+| Synth | Save synth preset | [SAVE / DELETE] + [SYNTH] |
+| Scales | Cycle through default scales | [SHIFT] + [SCALE] |
+| Scales | Change root note | [SCALE] + [AUDITION] pad row of new note |
+| Scales | Chromatic scale | [SCALE] to turn it OFF, LED unlit |
+| Scales | Create scale | In chromatic mode - scale OFF; Select [PAD] notes, then press [SCALE] |
+| Scales | Alter current scale | Hold [AUDITION] pad + press & turn (SELECT) |
+| Transpose | Transpose current clip an octave | Press & turn (SCROLL▼▲) |
+| Transpose | Transpose current clip a semitone | In chromatic mode - Scale OFF; [SHIFT] + press & turn (SCROLL▼▲) |
+| Transpose |  Transpose ALL clips a semitone | In scale mode - scale ON; [SHIFT] + press & turn (SCROLL ▼▲) |
+| Note | Create full screen ‘drone’ note | Hold [PAD] first column + press [PAD] last column of grid |
+| MIDI | Assign MIDI CC to parameter knob (MIDI Track) | Press & hold (UPPER) or (LOWER) + turn (SELECT) | 
 
 ## Kit Clips
 
+| Context | Action | Shortcut |
+| - | - | - |
+| Kit | Change colour of specific row | [SHIFT] + [AUDITION] + turn (SCROLL▼▲) |
+| Kit | Save kit preset | [SAVE / DELETE] + [KIT] |
+| Kit | Randomize Kit Row | [AUDITION] for row to edit + [RANDOM] Pad |
+| Kit | Move row Hold for row | [AUDITION] + [MUTE] + turn (SCROLL▼▲) |
+| Kit | Delete row | [PAD] for row to delete + [SAVE / DELETE] |
+| Kit | Delete all unused rows | [KIT] + [SHIFT] + [SAVE / DELETE]  |
+| Sample | Slice a sample | [SHIFT] + [KIT], Turn (SELECT) to choose sample, [SHIFT] + Press (SELECT) for slicer to set slice number |
+| Sample | Lazy Chop Option | In the slicer function and number selection, Press (SCROLL◄►) to open the manual lazy slicer pads |
+| Sample | Record sample from input | [AUDITION] + [RECORD] to start recording. [RECORD] again to end |
+| CV | Set kit row output to gate | [AUDITION] + press [CV] |
+| CV | Set kit row CV gate | [AUDITION] + turn (LOWER) - must be set as a CV row |
+| MIDI | Set kit row output to MIDI | [AUDITION] + press [MIDI] |
+| MIDI | Set kit row MIDI channel | [AUDITION] + turn (LOWER) - must be set as a MIDI row |
+| MIDI | Set kit row MIDI note | [AUDITION] + turn (UPPER) - must be set as a MIDI row |
+
 ## Keyboard
 
+| Context | Action | Shortcut |
+| - | - | - |
+| Keyboard | Select Keyboard view | [KEYBOARD] |
+| Keyboard | Isomorphic, In-Key or Norns | [KEYBOARD] + turn (SELECT) |
+| Keyboard | Note offset | [SHIFT] + turn (SCROLL◄►) |
+| Keyboard | Change Scale | [SCALE] + press (SELECT) |
+| Keyboard | Change Root Note | [SCALE] + turn (SELECT) | 
+
 ## Automation & Automation Editor - Clip View
+
+| Context | Action | Shortcut |
+| - | - | - |
+| Automation | Select Automation Mode | Press (CLIP) twice until it flashes blue. |
+| Automation | Select Automation Mode | Hold [SHIFT] + (CLIP) or [AUDITION] + (CLIP) |
+| Automation | Select Automation Parameter | [SHIFT] + [PAD] or Turn (SELECT) |
+| Automation | Select Affected Kit Rows | [AFFECT ENTIRE] On for all, off for selected rows |
+| Automation | Clear Automation | Hold (SCROLL◄►) + press [BACKUP / UNDO] |
+| Automation | Record Automation | [RECORD], [PLAY], Turn (UPPER) or (LOWER) |
+| Automation | Copy Automation | [LEARN / INPUT] + press (UPPER) or (LOWER) |
+| Automation | Paste Automation | [SHIFT] + [LEARN / INPUT] + press (UPPER) or (LOWER) |
+| Automation | Delete Automation | [SHIFT] + press (UPPER) or (LOWER) |
+| Automation | Interpolation On/Off | [SHIFT] + press [INTERPOLATION] shortcut pad in first column of grid |
+| Auto Editor | Check Parameter | Press flashing [PAD] |
+| Auto Editor | Set Parameter Column Value | Press [PAD] |
+| Auto Editor | Change Parameter Column Value | Hold [PAD] + turn (UPPER) or (LOWER) |
+| Auto Editor | Set long automation shape | Hold [PAD] start + Press [PAD] end. |
+| Auto Editor | Pad selection mode | [SHIFT] + press [WAVEFORM] shortcut pad in first column of grid |
+| Auto Editor | Pad selection mode edit | Turn (UPPER) or (LOWER) in pad selection mode |
+| Auto Editor | Duplicate Automation | [SHIFT] + Press (SCROLL◄►) |
+| Auto Editor | Shift Automation | Hold (SCROLL ▼▲) + Turn (SCROLL◄►) |
+| Auto Editor | Reduce clip length | [SHIFT] + Turn (SCROLL◄►) |
+| Auto Editor | View zoom level | Press (SCROLL◄►) |
+| Auto Editor | Change zoom level | Push & Turn (SCROLL◄►) |
+| Auto Editor | Scroll grid | Turn (SCROLL◄►) or (SCROLL ▼▲) |
