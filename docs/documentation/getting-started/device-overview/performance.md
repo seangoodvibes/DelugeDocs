@@ -62,7 +62,8 @@ Unaffected sample voices are very light on the CPU. This has been tested with a 
 
 The Deluge’s analog-modelled oscillator types and drive filter consume a little more CPU than the other types, but not enormously more.
 
-Considerations for CPU power :
+Considerations for CPU power:
+
 - Analog-simulated delay, time stretching, and pitch shifting (where pitch and time are treated independently - including live audio input) are the highest CPU users.
 - All other effects and synth features, though lighter, will add to the CPU’s load as well.
 - Synths with unison switched on will multiply the amount of processing power that that synth consumes.
