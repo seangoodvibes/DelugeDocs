@@ -246,7 +246,7 @@ Shortcuts are the fastest way to execute actions on the Deluge.
 :deluge-scale:{.icons} <br>
 :deluge-shift:{.icons} <br>
 :deluge-song:{.icons} <br>
-:deluge-sync_scale:{.icons} <br>
+:deluge-sync-scale:{.icons} <br>
 :deluge-synth:{.icons} <br>
 :deluge-tap-tempo:{.icons} <br>
 :deluge-triplet-view:{.icons} <br>
