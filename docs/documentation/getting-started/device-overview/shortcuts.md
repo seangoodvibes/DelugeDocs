@@ -1,22 +1,6 @@
 # Shortcuts
 
-Shortcuts are the fastest way to execute actions on the Deluge. 
-
-Examples of actions that can be executed using shortcuts include:
-
-- Clearing notes and automation
-- Copy / pasting notes and automation
-- Changing sound parameters
-- Transposing a clip
-- Rotating a clip
-- Entering notes with Euclidean sequencing
-- Adjusting a note's velocity, probability, iteration and fill settings
-- Adjusting the length of an audio clip sample without introducing timestretching
-- and many more
-
-This page will provide a listing of the various shortcuts that exist on the Deluge.
-
-In the future, an Actions menu will also be created on the Deluge to execute all of these actions without needing to memorize these shortcuts.
+Shortcuts are the fastest way to execute actions on the Deluge.
 
 ## All Views
 
