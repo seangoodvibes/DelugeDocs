@@ -1,17 +1,14 @@
 @font-face {
-  font-family: 'ArialBold';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: normal;
-  src: url("/assets/fonts/arial/ARIALBD.woff");
-  }
+  src: url("/assets/fonts/arial/ARIAL.woff");
+}
 
-  @font-face {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: normal;
-    src: url("/assets/fonts/arial/ARIAL.woff");
-    }
+:root {
+  --md-text-font: "Arial"; 
+}
 
 .icons {
-    font-size: 2em;
-  }
+  font-size: 2em;
+}
