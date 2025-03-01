@@ -21,6 +21,7 @@ All the above should be tied into a discussion on polyphony, voice priority, etc
 - I think it’s important to differentiate - filters in an fm synth double the cpu load per voice
 
 More info from Mark:
+
 - Reduced 7SEG performance from Official to Community Firmware
 - There’s a significant difference in performance from 7seg to OLED and the community firmware is based on the OLED codebase
 - you lose about 5 voices for the oled version
